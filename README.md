@@ -1,3 +1,4 @@
 # C_learning
-# C_learning
-# C_learning
+
+For C learning in TUS
+
