@@ -1,0 +1,5 @@
+Input string:
+Input is: daf
+Input string or Input 'Ctrl + D to end
+Input is: fff
+Input string or Input 'Ctrl + D to end
