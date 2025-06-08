@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <time.h>
 
 #define HASHSIZE 101
 #define FNVPrime 16777619U
@@ -36,6 +37,46 @@ typedef struct cityList{
     cities *current;
 }cityList;
 
+// List function
+void insertEnd(cities *newNode,cityList *list){
+        newNode -> preCityNode = list -> end; 
+        list -> end -> nextCityNode = newNode;
+        list -> end = newNode;
+}
+
+void insertHead(cities *newNode,cityList *list){
+    newNode -> nextCityNode = list -> head;    
+    list -> head -> preCityNode = newNode;
+    list -> head = newNode;
+    return;
+}
+
+void insertLeft(cities *newNode,cities *currentNode){
+    //modify now node
+    newNode -> preCityNode = currentNode -> preCityNode;
+    newNode -> nextCityNode = currentNode;
+    //modify pre
+    currentNode -> preCityNode -> nextCityNode = newNode;
+    //modify next
+    currentNode -> preCityNode = newNode;
+    return;
+}
+
+void free_cityList(cityList *list) {
+    if (list == NULL) {
+        return; 
+    }
+    cities *current = list->head;
+    cities *next;
+    while (current != NULL) {
+        next = current-> nextCityNode; 
+        free(current);
+        current = next; 
+    }
+    free(list);
+}
+
+//Node function
 double getValue(cities* node, int n) {
     if (node == NULL || node->this == NULL) {
         return 0.0;
@@ -53,6 +94,7 @@ double getValue(cities* node, int n) {
     }
 };
 
+//sort from small to big
 void sortAdd(cities *newCitiNode,cityList *sortedCity,int n){
     if(sortedCity -> head == NULL){
         sortedCity -> current = newCitiNode;
@@ -63,81 +105,32 @@ void sortAdd(cities *newCitiNode,cityList *sortedCity,int n){
     double new = getValue(newCitiNode, n);
     double first = getValue(sortedCity -> head, n);
     double end = getValue(sortedCity -> end, n);
-
-    if(new <= first){// new is the smallest
-        newCitiNode -> nextCityNode = sortedCity -> head;    
-        
-        sortedCity -> head -> preCityNode = newCitiNode;
-        sortedCity -> head = newCitiNode;
+    
+    // new is the smallest case
+    if(new <= first){
+        insertHead(newCitiNode,sortedCity);
         return;
-
     }
-
+    // new is the biggest case
     if(new > end){
-        newCitiNode -> preCityNode = sortedCity -> end; 
-        
-        sortedCity -> end -> nextCityNode = newCitiNode;
-        sortedCity -> end = newCitiNode;
+        insertEnd(newCitiNode,sortedCity);
         return;
     }
-    //printf("new: %d\n", new);
+    // new is between case
     cities *temp = sortedCity -> head;
     double now = getValue(temp, n);
-    while (now < new)
-    {
+    //find the First node bigger than new
+    while (now < new){ 
         temp = temp -> nextCityNode;
         now = getValue(temp, n);
-
-
     }
-    //printf("now: %d\n", now);
-    if(temp != NULL){
-        //printf("test2\n");
+    // insert to left
+    if(temp != NULL){ 
         //new is smaller than now => add to left
-        //modify now node
-        newCitiNode -> preCityNode = temp -> preCityNode;
-        newCitiNode -> nextCityNode = temp;
-        //modify pre
-        temp -> preCityNode -> nextCityNode = newCitiNode;
-        //modify next
-        temp -> preCityNode = newCitiNode;
+        insertLeft(newCitiNode, temp);
         return;
-
     }
 };
-
-void addCitiesLeft(cities *nowCities, city *nowCity, cities *firstCities){
-    cities *newCities = malloc(sizeof(cities));
-    newCities -> preCityNode = nowCities -> preCityNode;
-
-    newCities -> this = nowCity;
-
-    newCities -> nextCityNode = nowCities;
-
-    nowCities -> preCityNode = newCities;
-    
-    if(newCities -> preCityNode != NULL){
-        newCities -> preCityNode -> nextCityNode = newCities;
-    }else{
-        firstCities = newCities;
-    }
-    return;
-}
-
-void addCitiesRight(cities *nowCities, city *nowCity, cities *lastCities){
-    cities *newCities = malloc(sizeof(cities));
-    newCities -> nextCityNode = nowCities -> nextCityNode;
-    newCities -> this = nowCity;
-    newCities -> preCityNode = nowCities;
-
-    nowCities -> nextCityNode = newCities;
-    if(newCities -> nextCityNode != NULL){
-        newCities -> preCityNode -> nextCityNode = newCities;
-    }else{
-        lastCities = newCities;
-    }
-    return;
-}
 
 void print(city *now){
         printf("City Name:%s, lat:%f lng:%f [%s] Population:%d\n",now -> cityName, now -> lat, now -> lng,
@@ -188,11 +181,27 @@ void add(char *cityName, float lat, float lng, char *countryName,int pop){
     countryHashtable[countryHashkey] = newcity;
 }
 
+void free_all_memory() {
+    for (int i = 0; i < HASHSIZE; i++) {
+        city *current = cityHashtable[i];
+        city *next;
+        while (current != NULL) {
+            next = current->nextCity; 
+            free(current->cityName);
+            free(current->countryName);
+            free(current);
+            current = next; 
+        }
+        cityHashtable[i] = NULL;
+    }
+}
+
 /*
 Check and print how many elements in each table and the loadFactor;
 TODO: change to global var to optmas
 */
 void dist(){
+    printf("--HASHSIZE: %d--", HASHSIZE);
     float numberOfElement = 0;
     for(int i = 0; i < HASHSIZE; i++){
         printf("Table[%d]:%d\n", i, cityTableLoad[i]);
@@ -212,20 +221,23 @@ output: all information about this country
 void print_city(char *cityName){
     int cityHashkey = hash(cityName) % HASHSIZE;
     city *now = cityHashtable[cityHashkey];
-    
-    while(strcmp(now -> cityName, cityName) != 0){
-        if(now -> nextCity == NULL){
-            printf("No such city name is:%s\n",cityName);
-            return;
-        }
-        now = now -> nextCity;
+     while (now != NULL && strcmp(now->cityName, cityName) != 0) {
+        now = now->nextCity; 
     }
-    printf("City Name:%s, lat:%f lng:%f [%s] Population:%d\n",now -> cityName, now -> lat, now -> lng,
-        now -> countryName, now -> pop);
+    if (now != NULL) {
+        print(now);
+    } else {
+        printf("No such city named: %s\n", cityName);
+    }
     return;
-    
 }
 
+/*
+Make a city list in the input country by upscale order with specify data
+
+input: country name, data type : 0 = pop, 1 = lat, 2 = lng
+return: sorted list
+*/
 cityList* sort_cities(char *countryName, int dataType){
     int cityHashkey = hash(countryName) % HASHSIZE; //find buscket
     city *nowCity = countryHashtable[cityHashkey]; 
@@ -235,9 +247,9 @@ cityList* sort_cities(char *countryName, int dataType){
     sortedCity -> current = NULL;
     sortedCity -> head = NULL;
     sortedCity -> end = NULL;
-    
-    while (nowCity -> nextCityinCountry != NULL)
-    {
+
+    while (nowCity != NULL)
+    { 
         if(strcmp(nowCity -> countryName, countryName) == 0){  //if nowcity is in this country
             //TODO : creaate a new citynode
             cities *newCitiNode = malloc(sizeof(cities));
@@ -253,20 +265,30 @@ cityList* sort_cities(char *countryName, int dataType){
 
     return sortedCity;
 }
-//qs4 TODO::search function_2 : input a name of country and show all the city in this country by people
+
+//qs4 search function_2 : input a name of country and show all the city in this country by people
 void print_cities(char *countryName){
     cityList *sortedCity = sort_cities(countryName, 0); //sort by 0 = pop
+    if (sortedCity == NULL || sortedCity->head == NULL) {
+        printf("No cities found for country: %s\n", countryName);
+        if (sortedCity != NULL) {
+            free_cityList(sortedCity);
+        }
+        return;
+    }
+
     sortedCity -> current = sortedCity -> end;
     while (sortedCity -> current != NULL){
+        printf("test");
         print(sortedCity -> current -> this);
         sortedCity -> current = sortedCity -> current -> preCityNode;
     }
     return ;
-    //TODO free;
+    free_cityList(sortedCity);
 }
 
 
-//qs5 TODO::search function_3 : custom the input and show info as the commend way
+//qs5 search function_3 : custom the input and show info as the commend way
 //人口順(0) or 緯度順(1) or 経度順の指定(2)と，昇順(0)or降順(1)の指定と表示開始都市名を引数に追加し，指定された並びで都市を表示できるように変更したprint_cities2()を作成せよ．
 //例: print_cities2("Japan", 0, 1, "Noda"); この場合はNodaより人口が少ない日本の都市をNodaから順に表示する．
 void print_cities2(char *countryName, int dataType, int order, char *startCity){
@@ -275,15 +297,14 @@ void print_cities2(char *countryName, int dataType, int order, char *startCity){
     if (sortedCity == NULL || sortedCity->head == NULL) {
         printf("No cities found for country: %s\n", countryName);
         if (sortedCity != NULL) {
-            //TODO : free_cityList(sortedCity); 
+            free_cityList(sortedCity); 
         }
         return;
     }
 
     //find startNode
     cities *startNode = NULL;
-
-    if(startCity == NULL || strcmp(startCity, "") == 0){
+    if(startCity == NULL || strcmp(startCity, "0") == 0){
         if(order == 0){
             startNode = sortedCity -> head;
         }else{
@@ -291,32 +312,27 @@ void print_cities2(char *countryName, int dataType, int order, char *startCity){
         }
     }else{
         cities *curNode = sortedCity -> head;
-
         while (curNode != NULL){         
-            
             if(strcmp(curNode -> this -> cityName, startCity) == 0){
-
                 startNode = curNode;
                 break;
             }
-
+            char *str = curNode-> this -> cityName;
             curNode = curNode -> nextCityNode;
         }
-
     }
 
     //print by order
     if(startNode == NULL){
-        printf("startNode error\n");
+        printf("No such city named:%s\n", startCity);
     }else{
         cities *current = startNode;
-
-        if(order == 0){
+        if(order == 0){// small to big
             while (current != NULL){
                 print(current -> this);
                 current = current -> nextCityNode;
             }
-        }else if(order == 1){
+        }else if(order == 1){// big to small
             while (current != NULL){
                 print(current -> this);
                 current = current -> preCityNode;
@@ -325,67 +341,124 @@ void print_cities2(char *countryName, int dataType, int order, char *startCity){
             printf("order error\n");
         }
     }
+    free_cityList(sortedCity);
     return ;
 }
 
 //sys opreat info
 void sysMenuJp(){
-    printf("===========================");
-    printf("[1] ファイルを読み込み");
-    printf("[2] show the discribe of Hashtable");
-    printf("[3] search the city info");
-    printf("[4] ");
+    printf("===========================\n");
+    printf("数字を入力して、プログラムを起動する.\n");
+    printf("[1] ハッシュテーブルの分布を示す\n");
+    printf("[2] 都市の情報を示す\n");
+    printf("[3] 国に存在する都市を示す\n");
+    printf("[4] 国に存在する都市を指定の形式で示す\n");
+    printf("EOFを入力するプログラムを閉じる\n");
+    printf("===========================\n");
+    return;
 }
-void sysMenuEn(){
-    printf("===========================");
-    printf("[1] read file");
-    printf("[2] show the discribe of Hashtable");
-    printf("[3] search the city info");
-    printf("[4] ");
-}
-
 
 int main(){
+    struct timespec start, end;
+    long long elapsed_ns;
+    double elapsed_ms;
+    
     char name[1024];
     char country[1024];
     float lat, lng;
     int pop, i, f;
     char *filename = "worldcities.txt";
     FILE *fp;
-    char buffer[1024];
+
     for(int i = 0; i < HASHSIZE; i++){
         countryHashtable[i] = NULL;
         cityHashtable[i] = NULL;
         cityTableLoad[i] = 0;
-        
     }
-
     fp = fopen(filename,"r");
     while((f = fscanf(fp,"%s %f %f %s %d",name,&lat,&lng,country,&pop))!=EOF){
         add(name, lat, lng, country, pop);
     }
     fclose(fp);
-    dist();
-    //printf("City name? ");
-    //scanf("%s", buffer);
-    //print_cities("Japan"); 
-    //char inputBuffer[1024];
-    //print_cities2("China", 0, 1, "Chongqing");
-
-
-    //TODO::trans to hashtable
-
-
-    //TODO::get input
-    
-
-
-
-
-    //printf("Country name? ");
-    //scanf("%s", buffer);
-    //print_cities(buffer);
-
+    sysMenuJp();
+    char buffer[1024];
+    int bufferint;
+    while(1){
+        int scanResult = scanf("%d", &bufferint);
+        if(scanResult == EOF){
+            printf("EOFを検出する、プログラムを閉じる\n");
+            free_all_memory();
+            break; 
+        }else if (scanResult == 1){
+            switch (bufferint){
+                case 1:
+                    dist();
+                    break;
+                case 2:
+                    printf("探したいの都市は？\n");
+                    scanf("%s", buffer);
+                    clock_gettime(CLOCK_MONOTONIC, &start);
+                    print_city(buffer);
+                    clock_gettime(CLOCK_MONOTONIC, &end);
+                    elapsed_ns = (end.tv_sec - start.tv_sec) * 1000000000LL + (end.tv_nsec - start.tv_nsec);
+                    elapsed_ms = elapsed_ns / 1000000.0;
+                    printf("探す時間:  %.3f (ms)\n", elapsed_ms);
+                    break;
+                case 3:
+                    printf("探したいの国は？\n");
+                    scanf("%s", buffer);
+                    clock_gettime(CLOCK_MONOTONIC, &start);
+                    print_cities(buffer);
+                    clock_gettime(CLOCK_MONOTONIC, &end);
+                    elapsed_ns = (end.tv_sec - start.tv_sec) * 1000000000LL + (end.tv_nsec - start.tv_nsec);
+                    elapsed_ms = elapsed_ns / 1000000.0;
+                    printf("探す時間:  %.3f (ms)\n", elapsed_ms);
+                    break;
+                case 4:
+                    int dataType,order;
+                    char cityName[1024] = "";
+                    printf("探したい国の名前は？\n");
+                    scanf("%s", buffer);
+                    printf("並びたい順番を選択してください：\n[0]人口\n[1]緯度\n[2]経度\n");                    
+                    scanf("%d", &dataType);
+                    while (dataType != 1 && dataType != 2 && dataType != 0)
+                    {
+                        int c;
+                        while ((c = getchar()) != '\n' && c != EOF);    
+                        printf("入力が間違います、再度に入力してください\n");
+                        printf("並びたい順番を選択してください：\n[0]人口\n[1]緯度\n[2]経度\n");
+                        scanf("%d", &dataType);
+                    }
+                    printf("並び順番を選択してください：\n[0]昇順\n[1]降順\n");
+                    scanf("%d", &order);
+                    while (order != 1  && order != 0)
+                    {
+                        int c;
+                        while ((c = getchar()) != '\n' && c != EOF);
+                        printf("入力が間違います、再度に入力してください\n");
+                        printf("並びたい順番を選択してください：\n[0]人口\n[1]緯度\n[2]経度\n");
+                        scanf("%d", &order);
+                    }
+                    printf("開始したいの都市ファイルを入力くださ（指定しないのときを0を入力して、すべての都市が表示する）：\n");
+                    scanf("%s", cityName);
+                    clock_gettime(CLOCK_MONOTONIC, &start);
+                    print_cities2(buffer, dataType, order,cityName);
+                    clock_gettime(CLOCK_MONOTONIC, &end);
+                    elapsed_ns = (end.tv_sec - start.tv_sec) * 1000000000LL + (end.tv_nsec - start.tv_nsec);
+                    elapsed_ms = elapsed_ns / 1000000.0;
+                    printf("探す時間:  %.3f (ms)\n", elapsed_ms);
+                    break;
+                default:
+                    printf("入力が間違います、再度に入力してください。\n");
+                    break;
+                }   
+            }else{
+            printf("入力が間違います、再度に入力してください。\n");
+            int c;
+            while ((c = getchar()) != '\n' && c != EOF);
+        }
+        sysMenuJp();
+    }
     return 0;
 }
 

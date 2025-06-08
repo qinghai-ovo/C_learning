@@ -1,0 +1,1000 @@
+  996  python3 --version
+  997  g++ --version
+  998  code .
+  999  ls
+ 1000  cd cs106l-assignments
+ 1001  ls
+ 1002  git pull origin main
+ 1003  cd assignment0
+ 1004  ls
+ 1005  g++ -std=c++23 main.cpp -o main
+ 1006  ./main
+ 1007  g++ --version
+ 1008  sudo apt-get update
+ 1009  sudo apt-get install python3 python3-venv
+ 1010  ./main
+ 1011  cd ..
+ 1012  ls
+ 1013  cd ..
+ 1014  git clone https://github.com/cs106l/cs106l-lecture-code.git
+ 1015  ls
+ 1016  cd cs106l-lecture-code
+ 1017  ls
+ 1018  ./README.md 
+ 1019  cd lecture02
+ 1020  cd ..
+ 1021  cd lecture02
+ 1022  ls
+ 1023  CAT README.md 
+ 1024  cd ..
+ 1025  code .
+ 1026  g++ main.cpp
+ 1027  ls
+ 1028  cd ..
+ 1029  cd cs106l-assignments/
+ 1030  ls
+ 1031  cd assignment1
+ 1032  ls
+ 1033  g++ -std=c++20 mian/cpp -o mian
+ 1034  ls
+ 1035  g++ -std=c++20 main.cpp -o main
+ 1036  ./main
+ 1037  g++ -std=c++20 main.cpp -o main
+ 1038  g++ -std=c++20 main.cpp -o main
+ 1039  ./main
+ 1040  g++ -std=c++20 main.cpp -o main
+ 1041  ./main
+ 1042  g++ -std=c++20 main.cpp -o main
+ 1043  ./main
+ 1044  g++ -std=c++20 main.cpp -o main
+ 1045  ./main
+ 1046  g++ -std=c++20 main.cpp -o main
+ 1047  ./main
+ 1048  g++ -std=c++20 main.cpp -o main
+ 1049  ./main
+ 1050  g++ -std=c++20 main.cpp -o main
+ 1051  ./main
+ 1052  g++ -std=c++20 main.cpp -o main
+ 1053  ./main
+ 1054  g++ -std=c++20 main.cpp -o main
+ 1055  ./main
+ 1056  g++ -std=c++20 main.cpp -o main
+ 1057  ./main
+ 1058  g++ -std=c++20 main.cpp -o main
+ 1059  ./main
+ 1060  g++ -std=c++20 main.cpp -o main
+ 1061  ./main
+ 1062  g++ -std=c++20 main.cpp -o main
+ 1063  ./main
+ 1064  g++ -std=c++20 main.cpp -o main
+ 1065  ./main
+ 1066  g++ -std=c++20 main.cpp -o main
+ 1067  ./main
+ 1068  g++ -std=c++20 main.cpp -o main
+ 1069  ./main
+ 1070  g++ -std=c++20 main.cpp -o main
+ 1071  ./main
+ 1072  g++ -std=c++20 main.cpp -o main
+ 1073  ./main
+ 1074  g++ -std=c++20 main.cpp -o main
+ 1075  ./main
+ 1076  g++ -std=c++20 main.cpp -o main
+ 1077  ./main
+ 1078  g++ -std=c++20 main.cpp -o main
+ 1079  ./main
+ 1080  g++ -std=c++20 main.cpp -o main
+ 1081  ./main
+ 1082  g++ -std=c++20 main.cpp -o main
+ 1083  ./main
+ 1084  g++ -std=c++20 main.cpp -o main
+ 1085  ./main
+ 1086  clear
+ 1087  ./main
+ 1088  clear
+ 1089  ./main
+ 1090  clear
+ 1091  g++ -std=c++20 main.cpp -o main
+ 1092  ./main
+ 1093  g++ -std=c++20 main.cpp -o main
+ 1094  ./main
+ 1095  g++ -std=c++20 main.cpp -o main
+ 1096  ./main
+ 1097  g++ -std=c++20 main.cpp -o main
+ 1098  ./main
+ 1099  g++ -std=c++20 main.cpp -o main
+ 1100  ./main
+ 1101  g++ -std=c++20 main.cpp -o main
+ 1102  ./main
+ 1103  g++ -std=c++20 main.cpp -o main
+ 1104  ./main
+ 1105  g++ -std=c++20 main.cpp -o main
+ 1106  ./main
+ 1107  g++ -std=c++20 main.cpp -o main
+ 1108  ./main
+ 1109  g++ -std=c++20 main.cpp -o main
+ 1110  ./main
+ 1111  g++ -std=c++20 main.cpp -o main
+ 1112  ./main
+ 1113  g++ -std=c++20 main.cpp -o main
+ 1114  ./main
+ 1115  g++ -std=c++20 main.cpp -o main
+ 1116  ./main
+ 1117  g++ -std=c++20 main.cpp -o main
+ 1118  ./main
+ 1119  g++ -std=c++20 main.cpp -o main
+ 1120  ./main
+ 1121  cd ..
+ 1122  ls
+ 1123  git pull origin main
+ 1124  ls
+ 1125  cd assignment1
+ 1126  ls
+ 1127  code .
+ 1128  cd ..
+ 1129  code .
+ 1130  code
+ 1131  ls
+ 1132  cd 
+ 1133  ls
+ 1134  cd
+ 1135  ls
+ 1136  cd GAMES101
+ 1137  LS
+ 1138  ls
+ 1139  code .
+ 1140  git pull
+ 1141  ls
+ 1142  cd Assignment1
+ 1143  ls
+ 1144  git pull
+ 1145  ls
+ 1146  rmdir Codeframe
+ 1147  ls
+ 1148  cd build
+ 1149  make
+ 1150  cmake ..
+ 1151  make
+ 1152  cd ..
+ 1153  code ,
+ 1154  code .
+ 1155  make 
+ 1156  cd Assignment
+ 1157  ls
+ 1158  cd Assignment1
+ 1159  ls
+ 1160  cd build
+ 1161  cmake ..\
+ 1162  cmake ..
+ 1163  make
+ 1164  cmake ..
+ 1165  make
+ 1166  cd ..
+ 1167  ls
+ 1168  cd build
+ 1169  ls
+ 1170  ./ Rasterizer
+ 1171  ./Rasterizer
+ 1172  cd ..
+ 1173  cd ../Assignment2
+ 1174  cd build
+ 1175  ls
+ 1176  make 
+ 1177  ./Rasterizer 
+ 1178  ls
+ 1179  cd java
+ 1180  ls
+ 1181  cd s4
+ 1182  ls
+ 1183  mkdir -p out
+ 1184  ls
+ 1185  javac --module-path /mnt/c/javafx-sdk-21/lib       --add-modules javafx.controls,javafx.fxml       -d out *.java
+ 1186  javafx ..
+ 1187  javafxc 
+ 1188  javafxc .
+ 1189  javafxc ..
+ 1190  javac -d out *.java
+ 1191  javafxc -d out *.java
+ 1192  jar --create --file FireboyWatergirl.jar     --main-class FireboyWatergirl     -C out .
+ 1193  cd
+ 1194  ls
+ 1195  cd dev
+ 1196  ls
+ 1197  cd javafx-sdk-21.0.5
+ 1198  ls
+ 1199  cd
+ 1200  cd java
+ 1201  cd s4
+ 1202  ls
+ 1203  code .
+ 1204  javafxc -d ./duild *.java
+ 1205  ls
+ 1206  cd build
+ 1207  ls
+ 1208  javafxc -d ./duild *.java
+ 1209  javafxc -d ./out *.java
+ 1210  ls
+ 1211  FireboyWatergirl.jar
+ 1212  ./FireboyWatergirl.jar
+ 1213  ls
+ 1214  code .
+ 1215  javafx FireboyWatergirl.jar
+ 1216  javafx FireboyWatergirl.class
+ 1217  javafx MainMenu
+ 1218  java MainMenu
+ 1219  javafx MainMenu
+ 1220  javafx MainMenu.class
+ 1221  javafxc *.java
+ 1222  javafx MainMenu.class
+ 1223  javafx MainMenu
+ 1224  javafx -version
+ 1225  g++ -std=c++23 cinGetline.cpp -o cinGetline
+ 1226  ./cinGetline
+ 1227  cd ..
+ 1228  ls
+ 1229  cd lecture06
+ 1230  ls
+ 1231  ls
+ 1232  cd cs106l
+ 1233  ls
+ 1234  cd cs106l-lecture-code/
+ 1235  ls
+ 1236  cd lecture05
+ 1237  ls
+ 1238  code .
+ 1239  g++ -std=c++23 *.cpp -o *
+ 1240  git pull
+ 1241  ls
+ 1242  cd ..
+ 1243  git pull
+ 1244  git pull -orgin main
+ 1245  ls
+ 1246  code .
+ 1247  cd lecture05
+ 1248  code ,
+ 1249  code .
+ 1250  ls
+ 1251  ./Rasterizer 
+ 1252  cd ..
+ 1253  cd build
+ 1254  ./Rasterizer 
+ 1255  cd build
+ 1256  cmake ..
+ 1257  make 
+ 1258  ./Rasterizer 
+ 1259  make 
+ 1260  ./Rasterizer 
+ 1261  make 
+ 1262  ./Rasterizer 
+ 1263  make 
+ 1264  ./Rasterizer 
+ 1265  make 
+ 1266  ./Rasterizer 
+ 1267  make 
+ 1268  ./Rasterizer 
+ 1269  make 
+ 1270  ./Rasterizer 
+ 1271  make 
+ 1272  ./Rasterizer 
+ 1273  make 
+ 1274  ./Rasterizer 
+ 1275  make 
+ 1276  ./Rasterizer 
+ 1277  make 
+ 1278  ./Rasterizer 
+ 1279  make 
+ 1280  ./Rasterizer 
+ 1281  make 
+ 1282  ./Rasterizer 
+ 1283  make 
+ 1284  ./Rasterizer 
+ 1285  make 
+ 1286  ./Rasterizer 
+ 1287  make 
+ 1288  ./Rasterizer 
+ 1289  make 
+ 1290  ./Rasterizer 
+ 1291  make 
+ 1292  ./Rasterizer 
+ 1293  make 
+ 1294  ./Rasterizer 
+ 1295  make 
+ 1296  ./Rasterizer 
+ 1297  make 
+ 1298  ./Rasterizer 
+ 1299  make 
+ 1300  ./Rasterizer 
+ 1301  make 
+ 1302  ./Rasterizer 
+ 1303  make 
+ 1304  ./Rasterizer image.png
+ 1305  make
+ 1306  ./Rasterizer imageNoSSAA.png
+ 1307  make 
+ 1308  ./Rasterizer imageNoSSAA.png
+ 1309  make 
+ 1310  ./Rasterizer imageNoSSAA.png
+ 1311  make 
+ 1312  ./Rasterizer imageNoSSAA.png
+ 1313  make 
+ 1314  ./Rasterizer image4SSAA.png
+ 1315  ./Rasterizer -2
+ 1316  ./Rasterizer 2
+ 1317  ./Rasterizer -2 o.png
+ 1318  make
+ 1319  ./Rasterizer 
+ 1320  cd ..
+ 1321  ls
+ 1322  cd ..
+ 1323  ls
+ 1324  cd Assignment3
+ 1325  code .
+ 1326  ls
+ 1327  cd ..
+ 1328  cd Assignment2
+ 1329  code .
+ 1330  ls
+ 1331  cd 
+ 1332  ls
+ 1333  cd GAMES101/
+ 1334  ls
+ 1335  cd Assignment2
+ 1336  ls
+ 1337  cd build
+ 1338  cd ..
+ 1339  code .
+ 1340  cd build
+ 1341  make 
+ 1342  ./Rasterizer 
+ 1343  make 
+ 1344  ./Rasterizer 
+ 1345  ls
+ 1346  cd c
+ 1347  ls
+ 1348  git pull
+ 1349  code .
+ 1350  git pull
+ 1351  ls
+ 1352  cd Assignment
+ 1353  ls
+ 1354  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1355  ./CityDataSearchSys 
+ 1356  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1357  ./CityDataSearchSys 
+ 1358  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1359  ./CityDataSearchSys 
+ 1360  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1361  ./CityDataSearchSys 
+ 1362  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1363  ./CityDataSearchSys 
+ 1364  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1365  ./CityDataSearchSys 
+ 1366  ls
+ 1367  cd c
+ 1368  ls
+ 1369  cd Assignment/
+ 1370  code .
+ 1371  ls
+ 1372  gcc CityDataSearchSys.c
+ 1373  a.out
+ 1374  ./a.out 
+ 1375  gcc CityDataSearchSys.c
+ 1376  ./a.out
+ 1377  gcc CityDataSearchSys.c
+ 1378  ./a.out
+ 1379  gcc CityDataSearchSys.c
+ 1380  ./a.out
+ 1381  gcc CityDataSearchSys.c
+ 1382  ./a.out
+ 1383  gcc CityDataSearchSys.c
+ 1384  ./a.out
+ 1385  gcc CityDataSearchSys.c
+ 1386  ./a.out
+ 1387  gcc CityDataSearchSys.c
+ 1388  ./a.out
+ 1389  gcc CityDataSearchSys.c
+ 1390  ./a.out
+ 1391  gcc CityDataSearchSys.c
+ 1392  gcc CityDataSearchSys.c
+ 1393  ./a.out
+ 1394  gcc CityDataSearchSys.c
+ 1395  ./a.out
+ 1396  gcc CityDataSearchSys.c
+ 1397  ./a.out
+ 1398  gcc CityDataSearchSys.c
+ 1399  ./a.out
+ 1400  gcc CityDataSearchSys.c
+ 1401  ./a.out
+ 1402  gcc CityDataSearchSys.c
+ 1403  ./a.out
+ 1404  gcc CityDataSearchSys.c
+ 1405  ./a.out
+ 1406  gcc CityDataSearchSys.c
+ 1407  ./a.out
+ 1408  gcc CityDataSearchSys.c
+ 1409  ./a.out
+ 1410  gcc CityDataSearchSys.c
+ 1411  ./a.out
+ 1412  gcc CityDataSearchSys.c
+ 1413  ./a.out
+ 1414  gcc CityDataSearchSys.c
+ 1415  ./a.out
+ 1416  gcc CityDataSearchSys.c
+ 1417  ./a.out
+ 1418  gcc CityDataSearchSys.c
+ 1419  ./a.out
+ 1420  gcc CityDataSearchSys.c
+ 1421  ./a.out
+ 1422  gcc CityDataSearchSys.c
+ 1423  ./a.out
+ 1424  gcc CityDataSearchSys.c
+ 1425  ./a.out
+ 1426  gcc CityDataSearchSys.c
+ 1427  ./a.out
+ 1428  gcc CityDataSearchSys.c
+ 1429  ./a.out
+ 1430  gcc CityDataSearchSys.c
+ 1431  ./a.out
+ 1432  gcc CityDataSearchSys.c
+ 1433  ./a.out
+ 1434  gcc CityDataSearchSys.c
+ 1435  Ad_Dali`	13.6957	44.7314	Yemen	-1
+ 1436  ./a.out
+ 1437  gcc CityDataSearchSys.c
+ 1438  ./a.out
+ 1439  gcc CityDataSearchSys.c
+ 1440  ./a.out
+ 1441  gcc CityDataSearchSys.c
+ 1442  ./a.out
+ 1443  gcc CityDataSearchSys.c
+ 1444  ./a.out
+ 1445  gcc CityDataSearchSys.c
+ 1446  ./a.out
+ 1447  gcc CityDataSearchSys.c
+ 1448  ./a.out
+ 1449  gcc CityDataSearchSys.c
+ 1450  ./a.out
+ 1451  gcc CityDataSearchSys.c
+ 1452  ./a.out
+ 1453  gcc CityDataSearchSys.c
+ 1454  ./a.out
+ 1455  gcc CityDataSearchSys.c
+ 1456  ./a.out
+ 1457  gcc CityDataSearchSys.c
+ 1458  ./a.out
+ 1459  gcc CityDataSearchSys.c
+ 1460  ./a.out
+ 1461  gcc CityDataSearchSys.c
+ 1462  ./a.out
+ 1463  gcc CityDataSearchSys.c
+ 1464  ./a.out
+ 1465  gcc CityDataSearchSys.c
+ 1466  ./a.out
+ 1467  gcc CityDataSearchSys.c
+ 1468  ./a.out
+ 1469  gcc CityDataSearchSys.c
+ 1470  ./a.out
+ 1471  gcc CityDataSearchSys.c
+ 1472  ./a.out
+ 1473  gcc CityDataSearchSys.c
+ 1474  ./a.out
+ 1475  gcc CityDataSearchSys.c
+ 1476  ./a.out
+ 1477  gcc CityDataSearchSys.c
+ 1478  ./a.out
+ 1479  gcc CityDataSearchSys.c
+ 1480  ./a.out
+ 1481  gcc CityDataSearchSys.c
+ 1482  ./a.out
+ 1483  gcc CityDataSearchSys.c
+ 1484  ./a.out
+ 1485  gcc CityDataSearchSys.c
+ 1486  ./a.out
+ 1487  gcc CityDataSearchSys.c
+ 1488  ./a.out
+ 1489  gcc CityDataSearchSys.c
+ 1490  ./a.out
+ 1491  gcc CityDataSearchSys.c
+ 1492  ./a.out
+ 1493  gcc CityDataSearchSys.c
+ 1494  ./a.out
+ 1495  gcc CityDataSearchSys.c
+ 1496  ./a.out
+ 1497  gcc CityDataSearchSys.c
+ 1498  ./a.out
+ 1499  gcc CityDataSearchSys.c
+ 1500  ./a.out
+ 1501  gcc CityDataSearchSys.c
+ 1502  ./a.out
+ 1503  gcc CityDataSearchSys.c
+ 1504  ./a.out
+ 1505  gcc CityDataSearchSys.c
+ 1506  ./a.out
+ 1507  gcc CityDataSearchSys.c
+ 1508  ./a.out
+ 1509  gcc CityDataSearchSys.c
+ 1510  ./a.out
+ 1511  gcc CityDataSearchSys.c
+ 1512  ./a.out
+ 1513  gcc CityDataSearchSys.c
+ 1514  ./a.out
+ 1515  gcc CityDataSearchSys.c
+ 1516  ./a.out
+ 1517  gcc -g CityDataSearchSys.c
+ 1518  ./a.out
+ 1519  gcc -g CityDataSearchSys.c
+ 1520  ./a.out
+ 1521  gcc -g CityDataSearchSys.c
+ 1522  ./a.out
+ 1523  gcc -g CityDataSearchSys.c
+ 1524  ./a.out
+ 1525  gcc -g CityDataSearchSys.c
+ 1526  ./a.out
+ 1527  gcc -g CityDataSearchSys.c
+ 1528  ./a.out
+ 1529  gcc -g CityDataSearchSys.c
+ 1530  ./a.out
+ 1531  gcc -g CityDataSearchSys.c
+ 1532  ./a.out
+ 1533  gcc -g CityDataSearchSys.c
+ 1534  ./a.out
+ 1535  gcc -g CityDataSearchSys.c
+ 1536  ./a.out
+ 1537  gcc -g CityDataSearchSys.c
+ 1538  ./a.out
+ 1539  gcc -g CityDataSearchSys.c
+ 1540  ./a.out
+ 1541  gcc -g CityDataSearchSys.c
+ 1542  ./a.out
+ 1543  gcc -g CityDataSearchSys.c
+ 1544  ./a.out
+ 1545  gcc -g CityDataSearchSys.c
+ 1546  ./a.out
+ 1547  gcc -g CityDataSearchSys.c
+ 1548  ./a.out
+ 1549  gcc -g CityDataSearchSys.c
+ 1550  ./a.out
+ 1551  gcc -g CityDataSearchSys.c
+ 1552  ./a.out
+ 1553  ls
+ 1554  cd c
+ 1555  ls
+ 1556  cd Assignment/
+ 1557  ls
+ 1558  code .
+ 1559  cd ..
+ 1560  code .
+ 1561  cd..
+ 1562  cd
+ 1563  ls
+ 1564  cd compiler
+ 1565  ls
+ 1566  code .
+ 1567  ls
+ 1568  utop
+ 1569  ls
+ 1570  cd ocaml
+ 1571  ls
+ 1572  cd 
+ 1573  cd compiler/
+ 1574  utop
+ 1575  cd
+ 1576  ls
+ 1577  cd compiler/
+ 1578  code .
+ 1579  ls
+ 1580  mkdir 03_List
+ 1581  cd 03_List/
+ 1582  ls
+ 1583  cd ..
+ 1584  ls
+ 1585  git
+ 1586  git add.
+ 1587  git add .
+ 1588  .git
+ 1589  git add .
+ 1590  git -help
+ 1591  git rm -r cached .
+ 1592  git rm -r
+ 1593  git rm -r .
+ 1594  git rm --cached -r
+ 1595  git rm --cached -r .
+ 1596  ls
+ 1597  git clone
+ 1598  git pull
+ 1599  ls
+ 1600  git rm --cached -r .
+ 1601  git add .
+ 1602  ls
+ 1603  git rm --cached -r .
+ 1604  git add .
+ 1605  git push
+ 1606  git rm --cached -r .
+ 1607  git add .
+ 1608  git push
+ 1609  ls
+ 1610  git rm --cached -r .
+ 1611  git add .
+ 1612  git push
+ 1613  ls
+ 1614  cd algorithm
+ 1615  code .
+ 1616  cd ..
+ 1617  ls
+ 1618  code .
+ 1619  ls
+ 1620  code .
+ 1621  cd ..
+ 1622  sudo apt update
+ 1623  sudo apt install gnome-online-accounts
+ 1624  ls
+ 1625  cd
+ 1626  ls
+ 1627  cd algorithm/
+ 1628  ls
+ 1629  git push
+ 1630  code .
+ 1631  sudo mount t drvfx G: /mnt/g
+ 1632  sudo mkdir /mnt/g
+ 1633  sudo mount -t drvfs G: /mnt/g
+ 1634  gnome
+ 1635  gnome --version
+ 1636  ls
+ 1637  cd ..
+ 1638  ls
+ 1639  cd ..
+ 1640  ls
+ 1641  cd mnt
+ 1642  ls
+ 1643  cd wslg
+ 1644  ls
+ 1645  cd ..
+ 1646  cd..
+ 1647  cd
+ 1648  sudo apt install gnome-online-accounts
+ 1649  gnome
+ 1650  ls
+ 1651  cd
+ 1652  ls
+ 1653  cd c
+ 1654  ls
+ 1655  code .
+ 1656  ls
+ 1657  cd ..
+ 1658  ls
+ 1659  cd 3110
+ 1660  ls
+ 1661  cd ..
+ 1662  ls
+ 1663  cd GAMES101/
+ 1664  LS
+ 1665  ls
+ 1666  cd ..
+ 1667  quit
+ 1668  exti
+ 1669  exit
+ 1670  ls
+ 1671  cd 
+ 1672  ls
+ 1673  cd c
+ 1674  ls
+ 1675  code .
+ 1676  ls
+ 1677  cd Assignment/
+ 1678  ls
+ 1679  ./CityDataSearchSys 
+ 1680  cd
+ 1681  ls
+ 1682  cd c
+ 1683  ls
+ 1684  cd Assignment/
+ 1685  ls
+ 1686  clear
+ 1687  ./CityDataSearchSys 
+ 1688  code .
+ 1689  clear
+ 1690  ./CityDataSearchSys 
+ 1691  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1692  ./CityDataSearchSys >> out.txt
+ 1693  ./CityDataSearchSys | tee logfile.txt
+ 1694  cd Assignment/
+ 1695  ls
+ 1696  gcc CityDataSearchSys -o CityDataSearchSys
+ 1697  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1698  ./CityDataSearchSys 
+ 1699  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1700  ./CityDataSearchSys 
+ 1701  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1702  ./CityDataSearchSys 
+ 1703  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1704  ./CityDataSearchSys 
+ 1705  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1706  ./CityDataSearchSys 
+ 1707  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1708  ./CityDataSearchSys 
+ 1709  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1710  ./CityDataSearchSys 
+ 1711  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1712  ./CityDataSearchSys 
+ 1713  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1714  ./CityDataSearchSys 
+ 1715  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1716  ./CityDataSearchSys 
+ 1717  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1718  ./CityDataSearchSys 
+ 1719  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1720  ./CityDataSearchSys 
+ 1721  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1722  ./CityDataSearchSys 
+ 1723  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1724  ./CityDataSearchSys 
+ 1725  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1726  ./CityDataSearchSys 
+ 1727  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1728  ./CityDataSearchSys 
+ 1729  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1730  ./CityDataSearchSys 
+ 1731  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1732  ./CityDataSearchSys 
+ 1733  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1734  ./CityDataSearchSys 
+ 1735  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1736  ./CityDataSearchSys 
+ 1737  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1738  ./CityDataSearchSys 
+ 1739  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1740  ./CityDataSearchSys 
+ 1741  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1742  ./CityDataSearchSys 
+ 1743  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1744  ./CityDataSearchSys 
+ 1745  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1746  ./CityDataSearchSys 
+ 1747  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1748  ./CityDataSearchSys 
+ 1749  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1750  ./CityDataSearchSys 
+ 1751  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1752  ./CityDataSearchSys 
+ 1753  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1754  ./CityDataSearchSys 
+ 1755  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1756  ./CityDataSearchSys 
+ 1757  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1758  ./CityDataSearchSys 
+ 1759  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1760  ./CityDataSearchSys 
+ 1761  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1762  ./CityDataSearchSys 
+ 1763  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1764  ./CityDataSearchSys 
+ 1765  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1766  ./CityDataSearchSys 
+ 1767  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1768  ./CityDataSearchSys 
+ 1769  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1770  ./CityDataSearchSys 
+ 1771  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1772  ./CityDataSearchSys 
+ 1773  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1774  ./CityDataSearchSys 
+ 1775  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1776  ./CityDataSearchSys 
+ 1777  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1778  ./CityDataSearchSys 
+ 1779  ./CityDataSearchSys  >> printcity("Japan").txt
+ 1780  ./CityDataSearchSys  >> printcityJapan.txt
+ 1781  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1782  ./CityDataSearchSys  >> printcityJapan.txt
+ 1783  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1784  ./CityDataSearchSys  >> printcityJapan.txt
+ 1785  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1786  ./CityDataSearchSys  >> printcityJapan.txt
+ 1787  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1788  ./CityDataSearchSys  >> printcityJapan.txt
+ 1789  ./CityDataSearchSys  
+ 1790  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1791  ./CityDataSearchSys  
+ 1792  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1793  ./CityDataSearchSys  
+ 1794  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1795  ./CityDataSearchSys  
+ 1796  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1797  ./CityDataSearchSys  
+ 1798  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1799  ./CityDataSearchSys  
+ 1800  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1801  ./CityDataSearchSys  
+ 1802  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1803  ./CityDataSearchSys  
+ 1804  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1805  ./CityDataSearchSys  
+ 1806  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1807  ./CityDataSearchSys  
+ 1808  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1809  ./CityDataSearchSys  
+ 1810  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1811  ./CityDataSearchSys  
+ 1812  ./CityDataSearchSys  >> print.txt
+ 1813  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1814  ./CityDataSearchSys  >> print.txt
+ 1815  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1816  ./CityDataSearchSys  >> print.txt
+ 1817  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1818  ./CityDataSearchSys  >> print.txt
+ 1819  ./CityDataSearchSys 
+ 1820  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1821  ./CityDataSearchSys 
+ 1822  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1823  ./CityDataSearchSys 
+ 1824  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1825  ./CityDataSearchSys 
+ 1826  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1827  ./CityDataSearchSys 
+ 1828  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1829  ./CityDataSearchSys 
+ 1830  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1831  ./CityDataSearchSys 
+ 1832  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1833  ./CityDataSearchSys 
+ 1834  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1835  ./CityDataSearchSys 
+ 1836  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1837  ./CityDataSearchSys 
+ 1838  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1839  ./CityDataSearchSys 
+ 1840  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1841  ./CityDataSearchSys 
+ 1842  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1843  ./CityDataSearchSys 
+ 1844  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1845  ./CityDataSearchSys 
+ 1846  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1847  ./CityDataSearchSys 
+ 1848  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1849  ./CityDataSearchSys 
+ 1850  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1851  ./CityDataSearchSys 
+ 1852  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1853  ./CityDataSearchSys 
+ 1854  ./CityDataSearchSys >> print
+ 1855  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1856  ./CityDataSearchSys >> print
+ 1857  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1858  ./CityDataSearchSys >> print
+ 1859  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1860  ./CityDataSearchSys >> print
+ 1861  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1862  ./CityDataSearchSys >> print
+ 1863  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1864  ./CityDataSearchSys >> print
+ 1865  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1866  ./CityDataSearchSys 
+ 1867  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1868  ./CityDataSearchSys 
+ 1869  ./CityDataSearchSys >> city
+ 1870  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1871  ./CityDataSearchSys >> city
+ 1872  ./CityDataSearchSys >> China
+ 1873  ./CityDataSearchSys >> city
+ 1874  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1875  ./CityDataSearchSys >> China
+ 1876  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1877  ./CityDataSearchSys
+ 1878  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1879  ./CityDataSearchSys
+ 1880  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1881  ./CityDataSearchSys
+ 1882  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1883  ./CityDataSearchSys
+ 1884  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1885  ./CityDataSearchSys
+ 1886  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1887  ./CityDataSearchSys
+ 1888  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1889  ./CityDataSearchSys
+ 1890  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1891  ./CityDataSearchSys
+ 1892  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1893  ./CityDataSearchSys
+ 1894  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1895  ./CityDataSearchSys
+ 1896  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1897  ./CityDataSearchSys
+ 1898  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1899  ./CityDataSearchSys
+ 1900  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1901  ./CityDataSearchSys
+ 1902  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1903  ./CityDataSearchSys >> japan
+ 1904  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1905  ./CityDataSearchSys 
+ 1906  ./CityDataSearchSys >> japan
+ 1907  ./CityDataSearchSys 
+ 1908  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1909  ./CityDataSearchSys 
+ 1910  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1911  ./CityDataSearchSys 
+ 1912  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1913  ./CityDataSearchSys 
+ 1914  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1915  ./CityDataSearchSys 
+ 1916  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1917  ./CityDataSearchSys 
+ 1918  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1919  ./CityDataSearchSys 
+ 1920  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1921  ./CityDataSearchSys 
+ 1922  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1923  ./CityDataSearchSys 
+ 1924  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1925  ./CityDataSearchSys 
+ 1926  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1927  ./CityDataSearchSys 
+ 1928  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1929  ./CityDataSearchSys 
+ 1930  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1931  ./CityDataSearchSys 
+ 1932  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1933  ./CityDataSearchSys 
+ 1934  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1935  ./CityDataSearchSys 
+ 1936  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1937  ./CityDataSearchSys 
+ 1938  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1939  ./CityDataSearchSys 
+ 1940  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1941  ./CityDataSearchSys 
+ 1942  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1943  ./CityDataSearchSys 
+ 1944  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1945  ./CityDataSearchSys 
+ 1946  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1947  ./CityDataSearchSys 
+ 1948  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1949  ./CityDataSearchSys 
+ 1950  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1951  ./CityDataSearchSys 
+ 1952  ./CityDataSearchSys >> Japan
+ 1953  ./CityDataSearchSys 
+ 1954  ./CityDataSearchSys >> Japan
+ 1955  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1956  ./CityDataSearchSys 
+ 1957  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1958  ./CityDataSearchSys 
+ 1959  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1960  ./CityDataSearchSys 
+ 1961  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1962  ./CityDataSearchSys 
+ 1963  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1964  ./CityDataSearchSys 
+ 1965  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1966  ./CityDataSearchSys 
+ 1967  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1968  ./CityDataSearchSys 
+ 1969  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1970  ./CityDataSearchSys 
+ 1971  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1972  ./CityDataSearchSys 
+ 1973  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1974  ./CityDataSearchSys 
+ 1975  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1976  ./CityDataSearchSys 
+ 1977  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1978  ./CityDataSearchSys 
+ 1979  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1980  ./CityDataSearchSys 
+ 1981  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1982  ./CityDataSearchSys 
+ 1983  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1984  ./CityDataSearchSys 
+ 1985  gcc CityDataSearchSys.c -o CityDataSearchSys
+ 1986  ./CityDataSearchSys 
+ 1987  ls
+ 1988  cd
+ 1989  ls
+ 1990  cd c
+ 1991  cd Assignment/
+ 1992  ls
+ 1993  code .
+ 1994  ./CityDataSearchSys | tee logfile.txt
+ 1995  history > new.txt

@@ -1,0 +1,1662 @@
+Script started on 2025-06-08 22:22:33+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="28"]
+[?2004h]0;qinghaiovo@desktop: ~/c/Assignment[01;32mqinghaiovo@desktop[00m:[01;34m~/c/Assignment[00m$ ./CityDataSearchSys 
+[?2004l
+===========================
+数字を入力して、プログラムを起動する.
+[1] ハッシュテーブルの分布を示す
+[2] 都市の情報を示す
+[3] 国に存在する都市を示す
+[4] 国に存在する都市を指定の形式で示す
+EOFを入力するプログラムを閉じる
+===========================
+1
+--HASHSIZE: 101--Table[0]:467
+Table[1]:391
+Table[2]:443
+Table[3]:409
+Table[4]:404
+Table[5]:421
+Table[6]:412
+Table[7]:411
+Table[8]:450
+Table[9]:402
+Table[10]:394
+Table[11]:462
+Table[12]:443
+Table[13]:466
+Table[14]:449
+Table[15]:428
+Table[16]:403
+Table[17]:383
+Table[18]:418
+Table[19]:403
+Table[20]:441
+Table[21]:399
+Table[22]:465
+Table[23]:433
+Table[24]:437
+Table[25]:385
+Table[26]:419
+Table[27]:432
+Table[28]:433
+Table[29]:400
+Table[30]:441
+Table[31]:437
+Table[32]:408
+Table[33]:450
+Table[34]:453
+Table[35]:435
+Table[36]:379
+Table[37]:412
+Table[38]:402
+Table[39]:436
+Table[40]:417
+Table[41]:424
+Table[42]:435
+Table[43]:439
+Table[44]:412
+Table[45]:404
+Table[46]:445
+Table[47]:428
+Table[48]:389
+Table[49]:420
+Table[50]:428
+Table[51]:441
+Table[52]:421
+Table[53]:436
+Table[54]:450
+Table[55]:479
+Table[56]:396
+Table[57]:448
+Table[58]:454
+Table[59]:385
+Table[60]:428
+Table[61]:432
+Table[62]:450
+Table[63]:437
+Table[64]:439
+Table[65]:462
+Table[66]:439
+Table[67]:399
+Table[68]:421
+Table[69]:451
+Table[70]:403
+Table[71]:430
+Table[72]:443
+Table[73]:480
+Table[74]:414
+Table[75]:435
+Table[76]:432
+Table[77]:435
+Table[78]:389
+Table[79]:433
+Table[80]:388
+Table[81]:432
+Table[82]:440
+Table[83]:428
+Table[84]:412
+Table[85]:423
+Table[86]:391
+Table[87]:412
+Table[88]:440
+Table[89]:403
+Table[90]:418
+Table[91]:407
+Table[92]:447
+Table[93]:410
+Table[94]:376
+Table[95]:450
+Table[96]:383
+Table[97]:384
+Table[98]:408
+Table[99]:447
+Table[100]:447
+HashLoadFactor:424.80
+===========================
+数字を入力して、プログラムを起動する.
+[1] ハッシュテーブルの分布を示す
+[2] 都市の情報を示す
+[3] 国に存在する都市を示す
+[4] 国に存在する都市を指定の形式で示す
+EOFを入力するプログラムを閉じる
+===========================
+2
+探したいの都市は？
+Noda
+City Name:Noda, lat:35.955002 lng:139.874695 [Japan] Population:152227
+探す時間:  0.040 (ms)
+===========================
+数字を入力して、プログラムを起動する.
+[1] ハッシュテーブルの分布を示す
+[2] 都市の情報を示す
+[3] 国に存在する都市を示す
+[4] 国に存在する都市を指定の形式で示す
+EOFを入力するプログラムを閉じる
+===========================
+2
+探したいの都市は？
+Tokyo
+City Name:Tokyo, lat:35.683899 lng:139.774399 [Japan] Population:39105000
+探す時間:  0.027 (ms)
+===========================
+数字を入力して、プログラムを起動する.
+[1] ハッシュテーブルの分布を示す
+[2] 都市の情報を示す
+[3] 国に存在する都市を示す
+[4] 国に存在する都市を指定の形式で示す
+EOFを入力するプログラムを閉じる
+===========================
+2
+探したいの都市は？
+tokyo
+No such city named: tokyo
+探す時間:  0.067 (ms)
+===========================
+数字を入力して、プログラムを起動する.
+[1] ハッシュテーブルの分布を示す
+[2] 都市の情報を示す
+[3] 国に存在する都市を示す
+[4] 国に存在する都市を指定の形式で示す
+EOFを入力するプログラムを閉じる
+===========================
+2
+探したいの都市は？
+jjjj
+No such city named: jjjj
+探す時間:  0.065 (ms)
+===========================
+数字を入力して、プログラムを起動する.
+[1] ハッシュテーブルの分布を示す
+[2] 都市の情報を示す
+[3] 国に存在する都市を示す
+[4] 国に存在する都市を指定の形式で示す
+EOFを入力するプログラムを閉じる
+===========================
+3
+探したいの国は？
+Japan
+testCity Name:Tokyo, lat:35.683899 lng:139.774399 [Japan] Population:39105000
+testCity Name:Osaka, lat:34.751999 lng:135.458206 [Japan] Population:15490000
+testCity Name:Nagoya, lat:35.116699 lng:136.933304 [Japan] Population:9522000
+testCity Name:Yokohama, lat:35.433300 lng:139.633301 [Japan] Population:3757630
+testCity Name:Fukuoka, lat:33.599998 lng:130.416702 [Japan] Population:2280000
+testCity Name:Sapporo, lat:43.062099 lng:141.354401 [Japan] Population:1961690
+testCity Name:Kawasaki, lat:35.516701 lng:139.699997 [Japan] Population:1539522
+testCity Name:Kobe, lat:34.691299 lng:135.182999 [Japan] Population:1513193
+testCity Name:Kyoto, lat:35.011700 lng:135.768295 [Japan] Population:1464890
+testCity Name:Saitama, lat:35.861698 lng:139.645294 [Japan] Population:1320571
+testCity Name:Hiroshima, lat:34.400002 lng:132.449997 [Japan] Population:1198021
+testCity Name:Sendai, lat:38.268299 lng:140.869400 [Japan] Population:1058070
+testCity Name:Chiba, lat:35.607300 lng:140.106400 [Japan] Population:981738
+testCity Name:Setagaya, lat:35.646400 lng:139.653305 [Japan] Population:940509
+testCity Name:Kitakyushu, lat:33.883301 lng:130.883301 [Japan] Population:935084
+testCity Name:Sakai, lat:34.566700 lng:135.483307 [Japan] Population:823523
+testCity Name:Niigata, lat:37.916100 lng:139.036407 [Japan] Population:790646
+testCity Name:Hamamatsu, lat:34.716702 lng:137.733307 [Japan] Population:788211
+testCity Name:Nerima, lat:35.750000 lng:139.616699 [Japan] Population:742463
+testCity Name:Kumamoto, lat:32.803101 lng:130.707794 [Japan] Population:738385
+testCity Name:Ota-ku, lat:35.561401 lng:139.716095 [Japan] Population:737187
+testCity Name:Sagamihara, lat:35.566700 lng:139.366699 [Japan] Population:722973
+testCity Name:Okayama, lat:34.650002 lng:133.916702 [Japan] Population:720043
+testCity Name:Edogawa, lat:35.692402 lng:139.875702 [Japan] Population:690457
+testCity Name:Shizuoka, lat:34.975601 lng:138.382507 [Japan] Population:685589
+testCity Name:Adachi, lat:35.783298 lng:139.800003 [Japan] Population:682326
+testCity Name:Honcho, lat:35.694698 lng:139.982498 [Japan] Population:641499
+testCity Name:Kagoshima, lat:31.580000 lng:130.528107 [Japan] Population:593754
+testCity Name:Kawaguchi, lat:35.807800 lng:139.724197 [Japan] Population:593353
+testCity Name:Suginami-ku, lat:35.683300 lng:139.616699 [Japan] Population:583609
+testCity Name:Itabashi, lat:35.766701 lng:139.683304 [Japan] Population:581337
+testCity Name:Hachioji, lat:35.666698 lng:139.316696 [Japan] Population:575721
+testCity Name:Himeji, lat:34.816700 lng:134.683304 [Japan] Population:527596
+testCity Name:Koto-ku, lat:35.666698 lng:139.816696 [Japan] Population:523117
+testCity Name:Utsunomiya, lat:36.549999 lng:139.883301 [Japan] Population:518197
+testCity Name:Matsuyama, lat:33.833302 lng:132.766693 [Japan] Population:506743
+testCity Name:Ichikawa, lat:35.721901 lng:139.931107 [Japan] Population:496657
+testCity Name:Matsudo, lat:35.787800 lng:139.903107 [Japan] Population:492367
+testCity Name:Higashi-osaka, lat:34.679401 lng:135.600800 [Japan] Population:490819
+testCity Name:Nishinomiya-hama, lat:34.733299 lng:135.333298 [Japan] Population:487010
+testCity Name:Oita, lat:33.233299 lng:131.606705 [Japan] Population:477186
+testCity Name:Kurashiki, lat:34.584999 lng:133.771896 [Japan] Population:474862
+testCity Name:Kanazawa, lat:36.561100 lng:136.656494 [Japan] Population:462479
+testCity Name:Fukuyama, lat:34.485802 lng:133.362503 [Japan] Population:459576
+testCity Name:Katsushika-ku, lat:35.733299 lng:139.850006 [Japan] Population:453410
+testCity Name:Amagasaki, lat:34.733299 lng:135.399994 [Japan] Population:450506
+testCity Name:Fujisawa, lat:35.338799 lng:139.491104 [Japan] Population:436744
+testCity Name:Machida, lat:35.548599 lng:139.446701 [Japan] Population:434414
+testCity Name:Kashiwa, lat:35.854401 lng:139.968903 [Japan] Population:433941
+testCity Name:Aomori, lat:40.822201 lng:140.747498 [Japan] Population:425962
+testCity Name:Toyota, lat:35.083302 lng:137.156693 [Japan] Population:422106
+testCity Name:Takamatsu, lat:34.349998 lng:134.050003 [Japan] Population:417814
+testCity Name:Shinagawa-ku, lat:35.599998 lng:139.733307 [Japan] Population:415729
+testCity Name:Toyama, lat:36.700001 lng:137.220001 [Japan] Population:413028
+testCity Name:Nagasaki, lat:32.783298 lng:129.866699 [Japan] Population:404656
+testCity Name:Toyonaka, lat:34.783298 lng:135.466705 [Japan] Population:401233
+testCity Name:Gifu, lat:35.416698 lng:136.766693 [Japan] Population:400118
+testCity Name:Miyazaki, lat:31.916700 lng:131.416702 [Japan] Population:397476
+testCity Name:Hirakata, lat:34.816700 lng:135.649994 [Japan] Population:396694
+testCity Name:Yokosuka, lat:35.250000 lng:139.666702 [Japan] Population:390275
+testCity Name:Okazaki, lat:34.950001 lng:137.166702 [Japan] Population:385376
+testCity Name:Minamisuita, lat:34.766701 lng:135.516693 [Japan] Population:384953
+testCity Name:Ichinomiya, lat:35.303902 lng:136.803101 [Japan] Population:378681
+testCity Name:Toyohashi, lat:34.769199 lng:137.391602 [Japan] Population:371507
+testCity Name:Takasaki, lat:36.316700 lng:139.000000 [Japan] Population:367463
+testCity Name:Nagano, lat:36.648602 lng:138.192795 [Japan] Population:367184
+testCity Name:Kawagoe, lat:35.933300 lng:139.483307 [Japan] Population:354195
+testCity Name:Wakayama, lat:34.233299 lng:135.166702 [Japan] Population:353299
+testCity Name:Kita-ku, lat:35.750000 lng:139.733307 [Japan] Population:353058
+testCity Name:Nara, lat:34.683300 lng:135.783295 [Japan] Population:352377
+testCity Name:Takatsuki, lat:34.849998 lng:135.616699 [Japan] Population:347496
+testCity Name:Koshigaya, lat:35.891102 lng:139.790802 [Japan] Population:346768
+testCity Name:Shinjuku, lat:35.700001 lng:139.716705 [Japan] Population:346115
+testCity Name:Otsu, lat:35.016701 lng:135.850006 [Japan] Population:342607
+testCity Name:Tokorozawa, lat:35.799400 lng:139.468903 [Japan] Population:341195
+testCity Name:Nakano, lat:35.707401 lng:139.663803 [Japan] Population:341014
+testCity Name:Iwaki, lat:37.033298 lng:140.883301 [Japan] Population:336111
+testCity Name:Hirosaki, lat:40.603100 lng:140.464203 [Japan] Population:335203
+testCity Name:Maebashi, lat:36.383301 lng:139.066696 [Japan] Population:331576
+testCity Name:Asahikawa, lat:43.770599 lng:142.365005 [Japan] Population:331392
+testCity Name:Koriyama, lat:37.412800 lng:140.294998 [Japan] Population:329706
+testCity Name:Kochi, lat:33.558899 lng:133.531403 [Japan] Population:325560
+testCity Name:Naha, lat:26.212200 lng:127.678902 [Japan] Population:316048
+testCity Name:Yokkaichi, lat:34.966702 lng:136.616699 [Japan] Population:310263
+testCity Name:Kasugai, lat:35.247700 lng:136.972397 [Japan] Population:306449
+testCity Name:Akita, lat:39.719700 lng:140.102493 [Japan] Population:302984
+testCity Name:Kurume, lat:33.316700 lng:130.516693 [Japan] Population:302858
+testCity Name:Oakashicho, lat:34.643101 lng:134.997498 [Japan] Population:299699
+testCity Name:Toshima, lat:35.733299 lng:139.716705 [Japan] Population:297954
+testCity Name:Morioka, lat:39.683300 lng:141.149994 [Japan] Population:290553
+testCity Name:Meguro, lat:35.633301 lng:139.683304 [Japan] Population:286905
+testCity Name:Fukushima, lat:37.760799 lng:140.473297 [Japan] Population:284282
+testCity Name:Ibaraki, lat:34.816399 lng:135.568604 [Japan] Population:283835
+testCity Name:Tsu, lat:34.718601 lng:136.505600 [Japan] Population:273267
+testCity Name:Sumida, lat:35.700001 lng:139.816696 [Japan] Population:270823
+testCity Name:Mito, lat:36.366699 lng:140.466705 [Japan] Population:268750
+testCity Name:Ichihara, lat:35.498100 lng:140.115601 [Japan] Population:268038
+testCity Name:Yao, lat:34.626900 lng:135.600800 [Japan] Population:264913
+testCity Name:Nagaoka, lat:37.433300 lng:138.833298 [Japan] Population:263955
+testCity Name:Fuchu, lat:35.668900 lng:139.477798 [Japan] Population:263093
+testCity Name:Kakogawacho-honmachi, lat:34.756901 lng:134.841400 [Japan] Population:260595
+testCity Name:Fukui, lat:36.064098 lng:136.219604 [Japan] Population:260263
+testCity Name:Minato, lat:35.658100 lng:139.751404 [Japan] Population:258105
+testCity Name:Hiratsuka, lat:35.323101 lng:139.342194 [Japan] Population:257662
+testCity Name:Tokushima, lat:34.066700 lng:134.550003 [Japan] Population:254510
+testCity Name:Shinozaki, lat:33.950001 lng:130.933304 [Japan] Population:252844
+testCity Name:Hakodate, lat:41.768600 lng:140.728897 [Japan] Population:251942
+testCity Name:Soka, lat:35.825600 lng:139.805603 [Japan] Population:251390
+testCity Name:Yamagata, lat:38.250000 lng:140.333298 [Japan] Population:247234
+testCity Name:Tsukuba-kenkyugakuen-toshi, lat:36.033298 lng:140.066696 [Japan] Population:246647
+testCity Name:Fuji, lat:35.161400 lng:138.676407 [Japan] Population:243739
+testCity Name:Sasebo, lat:33.180000 lng:129.715607 [Japan] Population:242664
+testCity Name:Chigasaki, lat:35.333900 lng:139.404694 [Japan] Population:242347
+testCity Name:Chofugaoka, lat:35.650600 lng:139.540802 [Japan] Population:240359
+testCity Name:Yato, lat:35.469299 lng:139.461594 [Japan] Population:239146
+testCity Name:Matsumoto, lat:36.238098 lng:137.971893 [Japan] Population:239115
+testCity Name:Bunkyo-ku, lat:35.716702 lng:139.750000 [Japan] Population:235981
+testCity Name:Shibuya-ku, lat:35.658298 lng:139.701401 [Japan] Population:235193
+testCity Name:Saga, lat:33.266701 lng:130.300003 [Japan] Population:232359
+testCity Name:Kasukabe, lat:35.975300 lng:139.752502 [Japan] Population:228975
+testCity Name:Neya, lat:34.766102 lng:135.628098 [Japan] Population:227997
+testCity Name:Ageoshimo, lat:35.977501 lng:139.593307 [Japan] Population:226616
+testCity Name:Takarazuka, lat:34.811401 lng:135.340607 [Japan] Population:224055
+testCity Name:Atsugicho, lat:35.433300 lng:139.366699 [Japan] Population:223815
+testCity Name:Ota, lat:36.291698 lng:139.375793 [Japan] Population:221123
+testCity Name:Hachinohe, lat:40.512199 lng:141.488297 [Japan] Population:220612
+testCity Name:Arakawa, lat:35.733299 lng:139.783295 [Japan] Population:217891
+testCity Name:Kure, lat:34.249199 lng:132.565796 [Japan] Population:212159
+testCity Name:Taito, lat:35.712601 lng:139.779999 [Japan] Population:210528
+testCity Name:Isesaki, lat:36.316700 lng:139.199997 [Japan] Population:210332
+testCity Name:Nishitokyo, lat:35.725800 lng:139.538605 [Japan] Population:207098
+testCity Name:Matsue, lat:35.468102 lng:133.048599 [Japan] Population:201802
+testCity Name:Yachiyo, lat:35.722500 lng:140.099701 [Japan] Population:200538
+testCity Name:Nagareyama, lat:35.856098 lng:139.902496 [Japan] Population:200298
+testCity Name:Itami, lat:34.786701 lng:135.405594 [Japan] Population:198522
+testCity Name:Higashi-Hiroshima, lat:34.416698 lng:132.733307 [Japan] Population:197347
+testCity Name:Kodaira, lat:35.728500 lng:139.477402 [Japan] Population:196959
+testCity Name:Suzuka, lat:34.882198 lng:136.584198 [Japan] Population:195250
+testCity Name:Kamirenjaku, lat:35.683300 lng:139.559402 [Japan] Population:194460
+testCity Name:Yamaguchi, lat:34.178101 lng:131.473907 [Japan] Population:193761
+testCity Name:Kumagaya, lat:36.147202 lng:139.388596 [Japan] Population:193190
+testCity Name:Hino, lat:35.671398 lng:139.395004 [Japan] Population:190598
+testCity Name:Odawara, lat:35.264702 lng:139.152206 [Japan] Population:189038
+testCity Name:Anjomachi, lat:34.966702 lng:137.083298 [Japan] Population:188801
+testCity Name:Kishiwada, lat:34.466702 lng:135.366699 [Japan] Population:188015
+testCity Name:Numazu, lat:35.095600 lng:138.863602 [Japan] Population:187653
+testCity Name:Tottori, lat:35.501099 lng:134.235001 [Japan] Population:187323
+testCity Name:Joetsu, lat:37.150002 lng:138.233307 [Japan] Population:187291
+testCity Name:Kofu, lat:35.666698 lng:138.566696 [Japan] Population:187144
+testCity Name:Toyokawa, lat:34.826801 lng:137.375900 [Japan] Population:183965
+testCity Name:Tachikawa, lat:35.713902 lng:139.407898 [Japan] Population:181115
+testCity Name:Uji, lat:34.880798 lng:135.779404 [Japan] Population:179626
+testCity Name:Narashino, lat:35.680801 lng:140.026703 [Japan] Population:174990
+testCity Name:Kamakurayama, lat:35.319698 lng:139.552505 [Japan] Population:172929
+testCity Name:Hitachi, lat:36.599998 lng:140.649994 [Japan] Population:172709
+testCity Name:Izumo, lat:35.368099 lng:132.755005 [Japan] Population:171995
+testCity Name:Tomakomai, lat:42.634102 lng:141.605499 [Japan] Population:170223
+testCity Name:Chuo-ku, lat:35.666698 lng:139.766693 [Japan] Population:169995
+testCity Name:Urayasu, lat:35.653599 lng:139.901703 [Japan] Population:169749
+testCity Name:Sakura, lat:35.723900 lng:140.223907 [Japan] Population:169059
+testCity Name:Nishio, lat:34.866699 lng:137.066696 [Japan] Population:168992
+testCity Name:Oyama, lat:36.314701 lng:139.800293 [Japan] Population:167874
+testCity Name:Takaoka, lat:36.754101 lng:137.025696 [Japan] Population:165880
+testCity Name:Kushiro, lat:42.983299 lng:144.383301 [Japan] Population:165699
+testCity Name:Iwata, lat:34.717800 lng:137.851395 [Japan] Population:165688
+testCity Name:Obihiro, lat:42.923599 lng:143.196701 [Japan] Population:165684
+testCity Name:Niiza, lat:35.793301 lng:139.565308 [Japan] Population:164653
+testCity Name:Hadano, lat:35.374699 lng:139.220306 [Japan] Population:164292
+testCity Name:Ube, lat:33.951698 lng:131.246704 [Japan] Population:162873
+testCity Name:Miyakonojo, lat:31.719700 lng:131.061707 [Japan] Population:159878
+testCity Name:Matsuzaka, lat:34.578098 lng:136.527496 [Japan] Population:158472
+testCity Name:Ogaki, lat:35.359402 lng:136.612793 [Japan] Population:158386
+testCity Name:Hitachi-Naka, lat:36.396400 lng:140.534393 [Japan] Population:154311
+testCity Name:Tochigi, lat:36.382401 lng:139.734100 [Japan] Population:153508
+testCity Name:Kariya, lat:34.989300 lng:137.002106 [Japan] Population:153178
+testCity Name:Ueda, lat:36.401901 lng:138.249100 [Japan] Population:152948
+testCity Name:Noda, lat:35.955002 lng:139.874695 [Japan] Population:152227
+testCity Name:Kawashiri, lat:34.830002 lng:135.417206 [Japan] Population:152076
+testCity Name:Higashimurayama, lat:35.754700 lng:139.468597 [Japan] Population:150458
+testCity Name:Kukichuo, lat:36.062199 lng:139.666901 [Japan] Population:150197
+testCity Name:Imabari, lat:34.066101 lng:132.997803 [Japan] Population:149209
+testCity Name:Musashino, lat:35.717800 lng:139.566101 [Japan] Population:148971
+testCity Name:Sayama, lat:35.853100 lng:139.412201 [Japan] Population:148324
+testCity Name:Komaki, lat:35.283298 lng:136.916702 [Japan] Population:147897
+testCity Name:Tama, lat:35.633301 lng:139.449997 [Japan] Population:147252
+testCity Name:Yonago, lat:35.428101 lng:133.331100 [Japan] Population:147210
+testCity Name:Iruma, lat:35.835800 lng:139.391098 [Japan] Population:145778
+testCity Name:Asaka, lat:35.797199 lng:139.593597 [Japan] Population:143915
+testCity Name:Kakamigahara, lat:35.398899 lng:136.848602 [Japan] Population:143641
+testCity Name:Kusatsu, lat:35.016701 lng:135.966705 [Japan] Population:143230
+testCity Name:Ashikaga, lat:36.340302 lng:139.449707 [Japan] Population:142882
+testCity Name:Toda, lat:35.817501 lng:139.677795 [Japan] Population:142352
+testCity Name:Okinawa, lat:26.334200 lng:127.805603 [Japan] Population:142094
+testCity Name:Misato, lat:35.830299 lng:139.872498 [Japan] Population:141913
+testCity Name:Moriguchi, lat:34.735802 lng:135.561707 [Japan] Population:141849
+testCity Name:Fukayacho, lat:36.197498 lng:139.281403 [Japan] Population:141336
+testCity Name:Fujita, lat:34.919399 lng:138.233902 [Japan] Population:140947
+testCity Name:Ishizaki, lat:38.428101 lng:141.306107 [Japan] Population:138856
+testCity Name:Kuwana, lat:35.062199 lng:136.683899 [Japan] Population:138798
+testCity Name:Koga, lat:36.183300 lng:139.716705 [Japan] Population:138237
+testCity Name:Shunan, lat:34.055302 lng:131.806107 [Japan] Population:137899
+testCity Name:Tsuchiura, lat:36.066700 lng:140.199997 [Japan] Population:137825
+testCity Name:Mino, lat:34.826900 lng:135.470596 [Japan] Population:136976
+testCity Name:Kisarazu, lat:35.376099 lng:139.916901 [Japan] Population:136118
+testCity Name:Yaizu, lat:34.866699 lng:138.316696 [Japan] Population:136028
+testCity Name:Ebina, lat:35.446400 lng:139.390793 [Japan] Population:135557
+testCity Name:Inazawa, lat:35.250000 lng:136.783295 [Japan] Population:134938
+testCity Name:Isahaya, lat:32.844200 lng:130.053604 [Japan] Population:133512
+testCity Name:Ome, lat:35.788300 lng:139.274994 [Japan] Population:132436
+testCity Name:Zama, lat:35.488602 lng:139.407501 [Japan] Population:130753
+testCity Name:Narita, lat:35.783298 lng:140.316696 [Japan] Population:130689
+testCity Name:Abiko, lat:35.864201 lng:140.028198 [Japan] Population:130290
+testCity Name:Onomichi, lat:34.408901 lng:133.205002 [Japan] Population:130143
+testCity Name:Kokubunji, lat:35.710800 lng:139.462204 [Japan] Population:129619
+testCity Name:Iwakuni, lat:34.166901 lng:132.219696 [Japan] Population:128401
+testCity Name:Seto, lat:35.216702 lng:137.083298 [Japan] Population:127327
+testCity Name:Omiyacho, lat:35.222198 lng:138.621399 [Japan] Population:127252
+testCity Name:Koganei, lat:35.699402 lng:139.503098 [Japan] Population:127226
+testCity Name:Osaki, lat:38.577202 lng:140.955597 [Japan] Population:127135
+testCity Name:Iizuka, lat:33.645802 lng:130.691406 [Japan] Population:126136
+testCity Name:Kirishima, lat:31.741100 lng:130.763107 [Japan] Population:123812
+testCity Name:Ise, lat:34.483299 lng:136.716705 [Japan] Population:122432
+testCity Name:Uruma, lat:26.379200 lng:127.857498 [Japan] Population:122371
+testCity Name:Honmachi, lat:32.517799 lng:130.618103 [Japan] Population:122134
+testCity Name:Kashiwara, lat:34.509399 lng:135.792496 [Japan] Population:121604
+testCity Name:Tsuruoka, lat:38.721699 lng:139.821701 [Japan] Population:121371
+testCity Name:Ebetsu, lat:43.103901 lng:141.536102 [Japan] Population:119819
+testCity Name:Daitocho, lat:34.711899 lng:135.623306 [Japan] Population:118799
+testCity Name:Kadoma, lat:34.733299 lng:135.583298 [Japan] Population:118319
+testCity Name:Aizuwakamatsu, lat:37.494701 lng:139.929703 [Japan] Population:117924
+testCity Name:Nobeoka, lat:32.582199 lng:131.664993 [Japan] Population:117711
+testCity Name:Handa, lat:34.899200 lng:136.926697 [Japan] Population:117544
+testCity Name:Matsubara, lat:34.578098 lng:135.551697 [Japan] Population:117186
+testCity Name:Konosu, lat:36.065800 lng:139.522202 [Japan] Population:116777
+testCity Name:Honcho, lat:35.758099 lng:139.529694 [Japan] Population:116477
+testCity Name:Ikoma, lat:34.691898 lng:135.700607 [Japan] Population:116174
+testCity Name:Karatsu, lat:33.450001 lng:129.968597 [Japan] Population:116052
+testCity Name:Beppu, lat:33.284698 lng:131.491104 [Japan] Population:115992
+testCity Name:Urasoe, lat:26.245800 lng:127.721901 [Japan] Population:115855
+testCity Name:Nasushiobara, lat:36.961700 lng:140.046097 [Japan] Population:115602
+testCity Name:Koencho, lat:43.808102 lng:143.894196 [Japan] Population:115441
+testCity Name:Niihama, lat:33.960300 lng:133.283401 [Japan] Population:114971
+testCity Name:Sano, lat:36.314400 lng:139.578293 [Japan] Population:114842
+testCity Name:Hatsukaichi, lat:34.349998 lng:132.333298 [Japan] Population:114699
+testCity Name:Kakegawa, lat:34.768600 lng:137.998306 [Japan] Population:113954
+testCity Name:Nagahama, lat:35.383301 lng:136.283295 [Japan] Population:113740
+testCity Name:Hikone, lat:35.250000 lng:136.250000 [Japan] Population:113191
+testCity Name:Hofu, lat:34.049999 lng:131.566696 [Japan] Population:113170
+testCity Name:Tokai, lat:35.016701 lng:136.899994 [Japan] Population:113144
+testCity Name:Fujimino, lat:35.879398 lng:139.519699 [Japan] Population:112745
+testCity Name:Higashiomi, lat:35.112801 lng:136.207794 [Japan] Population:112459
+testCity Name:Otaru, lat:43.183300 lng:141.000000 [Japan] Population:112452
+testCity Name:Oshu, lat:39.144402 lng:141.138901 [Japan] Population:112402
+testCity Name:Akishima, lat:35.705601 lng:139.353607 [Japan] Population:112110
+testCity Name:Ichinoseki, lat:38.934700 lng:141.126602 [Japan] Population:111824
+testCity Name:Kasuga, lat:33.532799 lng:130.470306 [Japan] Population:111144
+testCity Name:Kazo, lat:36.131401 lng:139.601807 [Japan] Population:110622
+testCity Name:Fujimi, lat:35.856701 lng:139.549194 [Japan] Population:110400
+testCity Name:Shirayamamachi, lat:36.514400 lng:136.565598 [Japan] Population:110135
+testCity Name:Omuta, lat:33.030300 lng:130.446106 [Japan] Population:110054
+testCity Name:Kamagaya, lat:35.776901 lng:140.000793 [Japan] Population:109370
+testCity Name:Sandacho, lat:34.889400 lng:135.225296 [Japan] Population:109243
+testCity Name:Marugame, lat:34.289398 lng:133.797806 [Japan] Population:109165
+testCity Name:Tondabayashicho, lat:34.499199 lng:135.597198 [Japan] Population:108735
+testCity Name:Habikino, lat:34.557800 lng:135.606094 [Japan] Population:108373
+testCity Name:Mineshita, lat:35.118599 lng:138.918594 [Japan] Population:107416
+testCity Name:Tajimi, lat:35.332802 lng:137.132202 [Japan] Population:106746
+testCity Name:Komatsu, lat:36.416698 lng:136.449997 [Japan] Population:106023
+testCity Name:Kiryu, lat:36.405300 lng:139.330597 [Japan] Population:105465
+testCity Name:Ikeda, lat:34.816700 lng:135.433304 [Japan] Population:104148
+testCity Name:Toride, lat:35.911400 lng:140.050293 [Japan] Population:103908
+testCity Name:Saijo, lat:33.919601 lng:133.181198 [Japan] Population:103760
+testCity Name:Inzai, lat:35.832199 lng:140.145798 [Japan] Population:103677
+testCity Name:Chikushino, lat:33.496399 lng:130.515594 [Japan] Population:103185
+testCity Name:Isehara, lat:35.402802 lng:139.315002 [Japan] Population:102088
+testCity Name:Shibuya, lat:35.653599 lng:139.709198 [Japan] Population:102056
+testCity Name:Onojo, lat:33.536400 lng:130.478897 [Japan] Population:101603
+testCity Name:Kanoya, lat:31.378300 lng:130.852203 [Japan] Population:100880
+testCity Name:Sakado, lat:35.957199 lng:139.403107 [Japan] Population:100829
+testCity Name:Kawachinagano, lat:34.458099 lng:135.564102 [Japan] Population:100415
+testCity Name:Chikusei, lat:36.307201 lng:139.983093 [Japan] Population:99758
+testCity Name:Kani, lat:35.425800 lng:137.061096 [Japan] Population:99545
+testCity Name:Tsuyama, lat:35.069401 lng:134.004395 [Japan] Population:99410
+testCity Name:Izumisano, lat:34.406700 lng:135.327499 [Japan] Population:99328
+testCity Name:Ginowan, lat:26.281700 lng:127.778297 [Japan] Population:99256
+testCity Name:Sakata, lat:38.914398 lng:139.836395 [Japan] Population:99235
+testCity Name:Itoshima, lat:33.557201 lng:130.195801 [Japan] Population:98527
+testCity Name:Saku, lat:36.248901 lng:138.476898 [Japan] Population:98292
+testCity Name:Chitose, lat:42.816700 lng:141.649994 [Japan] Population:97945
+testCity Name:Konan, lat:35.333302 lng:136.866699 [Japan] Population:97435
+testCity Name:Munakata, lat:33.805599 lng:130.540604 [Japan] Population:97041
+testCity Name:Iida, lat:35.514702 lng:137.821899 [Japan] Population:96642
+testCity Name:Omura, lat:32.921398 lng:129.953903 [Japan] Population:95619
+testCity Name:Kamisu, lat:35.889999 lng:140.664703 [Japan] Population:95471
+testCity Name:Shimada, lat:34.836399 lng:138.176102 [Japan] Population:95198
+testCity Name:Kanuma, lat:36.567200 lng:139.744995 [Japan] Population:94591
+testCity Name:Shibata, lat:37.950001 lng:139.333298 [Japan] Population:94258
+testCity Name:Ashiya, lat:34.727798 lng:135.303299 [Japan] Population:94116
+testCity Name:Azumino, lat:36.303902 lng:137.905594 [Japan] Population:93927
+testCity Name:Sanjo, lat:37.636799 lng:138.961700 [Japan] Population:93671
+testCity Name:Yashio, lat:35.822800 lng:139.839203 [Japan] Population:93283
+testCity Name:Yotsukaido, lat:35.669998 lng:140.168304 [Japan] Population:93233
+testCity Name:Nisshin, lat:35.133301 lng:137.033295 [Japan] Population:92823
+testCity Name:Hanamaki_Onsen, lat:39.388599 lng:141.116699 [Japan] Population:92815
+testCity Name:Inagi, lat:35.638100 lng:139.504700 [Japan] Population:92604
+testCity Name:Obu, lat:35.016701 lng:136.966705 [Japan] Population:92562
+testCity Name:Higashi-Matsuyama, lat:36.042198 lng:139.399994 [Japan] Population:92440
+testCity Name:Kitakami, lat:39.286701 lng:141.113098 [Japan] Population:92348
+testCity Name:Satsumasendai, lat:31.813299 lng:130.304199 [Japan] Population:91875
+testCity Name:Imizucho, lat:36.712502 lng:137.099396 [Japan] Population:90201
+testCity Name:Mihara, lat:34.397499 lng:133.078598 [Japan] Population:89972
+testCity Name:Koka, lat:34.966099 lng:136.166306 [Japan] Population:88538
+testCity Name:Sakai, lat:36.166901 lng:136.231705 [Japan] Population:87945
+testCity Name:Ama, lat:35.188400 lng:136.803696 [Japan] Population:87668
+testCity Name:Takasagocho-takasemachi, lat:34.765800 lng:134.790604 [Japan] Population:87220
+testCity Name:Fukuroi, lat:34.750301 lng:137.925003 [Japan] Population:86851
+testCity Name:Mobara, lat:35.428299 lng:140.288101 [Japan] Population:86446
+testCity Name:Gotenba, lat:35.308601 lng:138.934998 [Japan] Population:86334
+testCity Name:Settsu, lat:34.777199 lng:135.562195 [Japan] Population:86168
+testCity Name:Kameoka, lat:35.013302 lng:135.572495 [Japan] Population:86112
+testCity Name:Kitanagoya, lat:35.250301 lng:136.886093 [Japan] Population:86060
+testCity Name:Iga, lat:34.768600 lng:136.130005 [Japan] Population:85883
+testCity Name:Sekimachi, lat:35.495800 lng:136.917801 [Japan] Population:85636
+testCity Name:Takayama, lat:36.145802 lng:137.252197 [Japan] Population:85199
+testCity Name:Yokotemachi, lat:39.313702 lng:140.566605 [Japan] Population:84556
+testCity Name:Ushiku, lat:35.983299 lng:140.149994 [Japan] Population:84505
+testCity Name:Kaizuka, lat:34.437801 lng:135.358597 [Japan] Population:84356
+testCity Name:Higashiyamato, lat:35.745602 lng:139.426697 [Japan] Population:84260
+testCity Name:Ayase, lat:35.439999 lng:139.430801 [Japan] Population:84257
+testCity Name:Wako, lat:35.781399 lng:139.605804 [Japan] Population:84120
+testCity Name:Kitakoriyamacho, lat:34.649399 lng:135.782806 [Japan] Population:84007
+testCity Name:Chita, lat:35.000000 lng:136.866699 [Japan] Population:83881
+testCity Name:Komae, lat:35.634701 lng:139.578598 [Japan] Population:83677
+testCity Name:Moriyama, lat:35.058899 lng:135.994400 [Japan] Population:83567
+testCity Name:Nakatsu, lat:33.598301 lng:131.188293 [Japan] Population:82714
+testCity Name:Owariasahi, lat:35.216702 lng:137.033295 [Japan] Population:82336
+testCity Name:Shikokuchuo, lat:33.980801 lng:133.549194 [Japan] Population:82320
+testCity Name:Muroran, lat:42.315300 lng:140.973602 [Japan] Population:81580
+testCity Name:Omihachiman, lat:35.128300 lng:136.098099 [Japan] Population:81545
+testCity Name:Kimitsu, lat:35.330601 lng:139.902496 [Japan] Population:81355
+testCity Name:Yonezawa, lat:37.916698 lng:140.116699 [Japan] Population:80795
+testCity Name:Kashiwazaki, lat:37.371899 lng:138.559006 [Japan] Population:80787
+testCity Name:Nagaoka, lat:34.926701 lng:135.695602 [Japan] Population:80423
+testCity Name:Echizen, lat:35.903301 lng:136.169205 [Japan] Population:80264
+testCity Name:Akiruno, lat:35.728901 lng:139.294205 [Japan] Population:79600
+testCity Name:Iwamizawa, lat:43.196098 lng:141.775803 [Japan] Population:79361
+testCity Name:Gamagori, lat:34.826401 lng:137.219604 [Japan] Population:79292
+testCity Name:Natori-shi, lat:38.171700 lng:140.891907 [Japan] Population:79250
+testCity Name:Hanno, lat:35.851898 lng:139.318100 [Japan] Population:79169
+testCity Name:Maizuru, lat:35.450001 lng:135.333298 [Japan] Population:78730
+testCity Name:Mooka, lat:36.440300 lng:140.013107 [Japan] Population:78665
+testCity Name:Gyoda, lat:36.138901 lng:139.455795 [Japan] Population:78488
+testCity Name:Kashiba, lat:34.541401 lng:135.699203 [Japan] Population:78346
+testCity Name:Kizugawa, lat:34.736900 lng:135.820801 [Japan] Population:78035
+testCity Name:Nikko, lat:36.719799 lng:139.698196 [Japan] Population:77027
+testCity Name:Toyooka, lat:35.533298 lng:134.816696 [Japan] Population:77005
+testCity Name:Honjo, lat:36.243900 lng:139.190308 [Japan] Population:76757
+testCity Name:Aira, lat:31.728300 lng:130.627808 [Japan] Population:76610
+testCity Name:Tsubame, lat:37.666698 lng:138.966705 [Japan] Population:76590
+testCity Name:Toyomamachi-teraike, lat:38.691898 lng:141.187805 [Japan] Population:76164
+testCity Name:Daisen, lat:39.453098 lng:140.475601 [Japan] Population:76164
+testCity Name:Ryugasaki, lat:35.916698 lng:140.183304 [Japan] Population:76055
+testCity Name:Katano, lat:34.788101 lng:135.679993 [Japan] Population:76002
+testCity Name:Nabari, lat:34.633301 lng:136.100006 [Japan] Population:75942
+testCity Name:Fukuchiyama, lat:35.296700 lng:135.126404 [Japan] Population:75924
+testCity Name:Nakatsugawa, lat:35.487499 lng:137.500595 [Japan] Population:75500
+testCity Name:Kiyose, lat:35.785801 lng:139.526398 [Japan] Population:75389
+testCity Name:Kai, lat:35.660801 lng:138.515793 [Japan] Population:75337
+testCity Name:Shinkai, lat:35.836700 lng:139.580307 [Japan] Population:75247
+testCity Name:Kunitachi, lat:35.683899 lng:139.441406 [Japan] Population:75133
+testCity Name:Sasagawa, lat:37.286499 lng:140.372696 [Japan] Population:75128
+testCity Name:Warabi, lat:35.825600 lng:139.679398 [Japan] Population:74996
+testCity Name:Amakusa, lat:32.458599 lng:130.193100 [Japan] Population:74861
+testCity Name:Tosu, lat:33.377800 lng:130.506104 [Japan] Population:74673
+testCity Name:Miki, lat:34.796700 lng:134.990005 [Japan] Population:74255
+testCity Name:Joyo, lat:34.853100 lng:135.779999 [Japan] Population:74187
+testCity Name:Izumiotsu, lat:34.504398 lng:135.410294 [Japan] Population:74175
+testCity Name:Okegawa, lat:36.002800 lng:139.558304 [Japan] Population:74115
+testCity Name:Tatebayashi, lat:36.244999 lng:139.542206 [Japan] Population:73991
+testCity Name:Kyotanabe, lat:34.814400 lng:135.767807 [Japan] Population:73985
+testCity Name:Tatsunocho-tominaga, lat:34.858101 lng:134.545593 [Japan] Population:73952
+testCity Name:Yurihonjo, lat:39.385799 lng:140.048904 [Japan] Population:73840
+testCity Name:Kasama, lat:36.345001 lng:140.304199 [Japan] Population:73521
+testCity Name:Shibukawa, lat:36.483299 lng:139.000000 [Japan] Population:73064
+testCity Name:Inuyama, lat:35.383301 lng:136.949997 [Japan] Population:72926
+testCity Name:Otawara, lat:36.866699 lng:140.016693 [Japan] Population:72923
+testCity Name:Hekinan, lat:34.883301 lng:137.000000 [Japan] Population:72480
+testCity Name:Dazaifu, lat:33.512798 lng:130.523895 [Japan] Population:72430
+testCity Name:Yoshikawa, lat:35.895802 lng:139.855606 [Japan] Population:72139
+testCity Name:Chiryu, lat:35.000000 lng:137.116699 [Japan] Population:71907
+testCity Name:Ishioka, lat:36.183300 lng:140.283295 [Japan] Population:71851
+testCity Name:Katori, lat:35.897800 lng:140.499207 [Japan] Population:71391
+testCity Name:Musashimurayama, lat:35.754700 lng:139.387497 [Japan] Population:71183
+testCity Name:Yukuhashi, lat:33.728600 lng:130.983093 [Japan] Population:70922
+testCity Name:Yawata-shimizui, lat:34.875599 lng:135.707794 [Japan] Population:70373
+testCity Name:Eniwa, lat:42.882599 lng:141.577805 [Japan] Population:70102
+testCity Name:Tsurugashima, lat:35.934399 lng:139.393097 [Japan] Population:70067
+testCity Name:Kiyosu, lat:35.200001 lng:136.850006 [Japan] Population:69809
+testCity Name:Minami-Alps, lat:35.608299 lng:138.464996 [Japan] Population:69642
+testCity Name:Uwajima, lat:33.223301 lng:132.560593 [Japan] Population:69639
+testCity Name:Ritto, lat:35.021702 lng:135.998093 [Japan] Population:69598
+testCity Name:Toyoake, lat:35.049999 lng:137.016693 [Japan] Population:69389
+testCity Name:Anan, lat:33.916698 lng:134.666702 [Japan] Population:69259
+testCity Name:Moriya, lat:35.951401 lng:139.975601 [Japan] Population:68992
+testCity Name:Tanabe, lat:33.733299 lng:135.383301 [Japan] Population:68986
+testCity Name:Sabae, lat:35.956699 lng:136.184402 [Japan] Population:68666
+testCity Name:Odate, lat:40.271702 lng:140.564697 [Japan] Population:68593
+testCity Name:Soja, lat:34.672798 lng:133.746704 [Japan] Population:68551
+testCity Name:Kashiwara, lat:34.579201 lng:135.628601 [Japan] Population:67757
+testCity Name:Fuefuki, lat:35.647202 lng:138.639999 [Japan] Population:67396
+testCity Name:Chiyoda-ku, lat:35.694000 lng:139.753601 [Japan] Population:67036
+testCity Name:Kashima, lat:35.965801 lng:140.645004 [Japan] Population:67001
+testCity Name:Saiki, lat:32.960300 lng:131.899399 [Japan] Population:66497
+testCity Name:Yachimata, lat:35.665901 lng:140.317902 [Japan] Population:66430
+testCity Name:Hashima, lat:35.316700 lng:136.699997 [Japan] Population:66312
+testCity Name:Shiojiri, lat:36.116699 lng:137.949997 [Japan] Population:66181
+testCity Name:Fukutsu, lat:33.766899 lng:130.491104 [Japan] Population:65770
+testCity Name:Ina, lat:35.827499 lng:137.953903 [Japan] Population:65670
+testCity Name:Kitamoto, lat:36.026901 lng:139.529999 [Japan] Population:65191
+testCity Name:Tomigusuku, lat:26.177200 lng:127.681099 [Japan] Population:64850
+testCity Name:Ito, lat:34.965801 lng:139.101898 [Japan] Population:64473
+testCity Name:Tamana, lat:32.928101 lng:130.559692 [Japan] Population:64206
+testCity Name:Yanagawa, lat:33.163101 lng:130.406097 [Japan] Population:64120
+testCity Name:Sodegaura, lat:35.430000 lng:139.954697 [Japan] Population:63975
+testCity Name:Tenri, lat:34.596699 lng:135.837494 [Japan] Population:63760
+testCity Name:Tsuruga, lat:35.650002 lng:136.066696 [Japan] Population:63724
+testCity Name:Kurihara, lat:38.730301 lng:141.021393 [Japan] Population:63689
+testCity Name:Asahi, lat:35.716099 lng:140.648102 [Japan] Population:63507
+testCity Name:Fujiidera, lat:34.574699 lng:135.597504 [Japan] Population:63338
+testCity Name:Nago, lat:26.591700 lng:127.977501 [Japan] Population:63060
+testCity Name:Kaga, lat:36.302799 lng:136.315002 [Japan] Population:62997
+testCity Name:Miyoshi, lat:35.089699 lng:137.074402 [Japan] Population:62963
+testCity Name:Fujioka, lat:36.266701 lng:139.066696 [Japan] Population:62608
+testCity Name:Nagakute, lat:35.184200 lng:137.048599 [Japan] Population:62473
+testCity Name:Koshizuka, lat:32.885799 lng:130.789703 [Japan] Population:61997
+testCity Name:Tendo, lat:38.362202 lng:140.378296 [Japan] Population:61981
+testCity Name:Tagajo, lat:38.293900 lng:141.004395 [Japan] Population:61937
+testCity Name:Mitoyo, lat:34.147499 lng:133.695801 [Japan] Population:61838
+testCity Name:Hita, lat:33.321098 lng:130.941406 [Japan] Population:61755
+testCity Name:Shiroi, lat:35.791698 lng:140.056396 [Japan] Population:61673
+testCity Name:Hasuda, lat:35.994202 lng:139.662201 [Japan] Population:61473
+testCity Name:Hatogaya-honcho, lat:35.826698 lng:139.741196 [Japan] Population:61379
+testCity Name:Aisai, lat:35.150002 lng:136.733307 [Japan] Population:60914
+testCity Name:Tsushima, lat:35.183300 lng:136.733307 [Japan] Population:60908
+testCity Name:Itoman, lat:26.118099 lng:127.687202 [Japan] Population:60903
+testCity Name:Tamba, lat:35.177200 lng:135.035797 [Japan] Population:60824
+testCity Name:Yamatotakada, lat:34.514999 lng:135.736404 [Japan] Population:60791
+testCity Name:Yame, lat:33.211899 lng:130.557800 [Japan] Population:60196
+testCity Name:Towada, lat:40.612801 lng:141.205795 [Japan] Population:60063
+testCity Name:Hashimoto, lat:34.316700 lng:135.600006 [Japan] Population:60058
+testCity Name:Sanyo-Onoda, lat:34.003300 lng:131.181900 [Japan] Population:59648
+testCity Name:Sennan, lat:34.365799 lng:135.273605 [Japan] Population:59634
+testCity Name:Shimotsuke, lat:36.387199 lng:139.842194 [Japan] Population:59404
+testCity Name:Koga, lat:33.733299 lng:130.466705 [Japan] Population:59349
+testCity Name:Kesennuma, lat:38.908298 lng:141.570007 [Japan] Population:59341
+testCity Name:Hyuga, lat:32.422798 lng:131.623901 [Japan] Population:59276
+testCity Name:Joso, lat:36.023602 lng:139.993896 [Japan] Population:59223
+testCity Name:Chichibu, lat:35.991699 lng:139.085602 [Japan] Population:59101
+testCity Name:Shirakawa, lat:37.126400 lng:140.210800 [Japan] Population:59044
+testCity Name:Tahara, lat:34.641399 lng:137.183105 [Japan] Population:59015
+testCity Name:Chikuma, lat:36.530701 lng:138.114899 [Japan] Population:58755
+testCity Name:Koja, lat:26.334400 lng:127.805702 [Japan] Population:58658
+testCity Name:Osakasayama, lat:34.503601 lng:135.555603 [Japan] Population:58593
+testCity Name:Ogori, lat:33.396400 lng:130.555603 [Japan] Population:58322
+testCity Name:Ishikari, lat:43.178299 lng:141.306702 [Japan] Population:58284
+testCity Name:Date, lat:37.818901 lng:140.563095 [Japan] Population:58232
+testCity Name:Kokawa, lat:34.269699 lng:135.362503 [Japan] Population:58130
+testCity Name:Kitahiroshima, lat:42.985699 lng:141.563599 [Japan] Population:58125
+testCity Name:Kosai, lat:34.718601 lng:137.531693 [Japan] Population:57682
+testCity Name:Togane, lat:35.560001 lng:140.366104 [Japan] Population:57560
+testCity Name:Choshi, lat:35.734699 lng:140.826706 [Japan] Population:57533
+testCity Name:Tokoname, lat:34.883301 lng:136.833298 [Japan] Population:57507
+testCity Name:Uki, lat:32.647800 lng:130.684296 [Japan] Population:57096
+testCity Name:Nonoichi, lat:36.519402 lng:136.609695 [Japan] Population:57090
+testCity Name:Minokamo, lat:35.433300 lng:137.016693 [Japan] Population:57007
+testCity Name:Zushi, lat:35.294800 lng:139.578094 [Japan] Population:56996
+testCity Name:Murakami, lat:38.223900 lng:139.480103 [Japan] Population:56713
+testCity Name:Fussa, lat:35.738602 lng:139.326706 [Japan] Population:56713
+testCity Name:Kudamatsu, lat:34.014999 lng:131.870300 [Japan] Population:56661
+testCity Name:Kan'onjicho, lat:34.128300 lng:133.662796 [Japan] Population:56639
+testCity Name:Tama, lat:34.491901 lng:133.945801 [Japan] Population:56431
+testCity Name:Mukocho, lat:34.948601 lng:135.698303 [Japan] Population:56152
+testCity Name:Mizuho, lat:35.391899 lng:136.690796 [Japan] Population:56106
+testCity Name:Takizawa, lat:39.734699 lng:141.076904 [Japan] Population:56050
+testCity Name:Takaishi, lat:34.520599 lng:135.442200 [Japan] Population:55910
+testCity Name:Nogata, lat:33.743900 lng:130.729706 [Japan] Population:55705
+testCity Name:Toki, lat:35.352501 lng:137.183304 [Japan] Population:55388
+testCity Name:Narutocho-mitsuishi, lat:34.166698 lng:134.616699 [Japan] Population:55264
+testCity Name:Shijonawate, lat:34.740002 lng:135.639404 [Japan] Population:55094
+testCity Name:Chino, lat:35.995602 lng:138.158905 [Japan] Population:55018
+testCity Name:Minamiuonuma, lat:37.066700 lng:138.883301 [Japan] Population:54820
+testCity Name:Hidaka, lat:35.907799 lng:139.339203 [Japan] Population:54728
+testCity Name:Annaka, lat:36.326401 lng:138.887207 [Japan] Population:54602
+testCity Name:Nihonmatsu, lat:37.584702 lng:140.431396 [Japan] Population:54447
+testCity Name:Konan, lat:35.004200 lng:136.085007 [Japan] Population:54392
+testCity Name:Sakurai, lat:34.518902 lng:135.851898 [Japan] Population:54346
+testCity Name:Sado, lat:38.018299 lng:138.368301 [Japan] Population:54304
+testCity Name:Hamura, lat:35.767200 lng:139.311096 [Japan] Population:53970
+testCity Name:Hamada, lat:34.899200 lng:132.080002 [Japan] Population:53753
+testCity Name:Funato, lat:34.256401 lng:135.311096 [Japan] Population:53714
+testCity Name:Hanyu, lat:36.172798 lng:139.548599 [Japan] Population:53431
+testCity Name:Mutsu, lat:41.293098 lng:141.183105 [Japan] Population:53393
+testCity Name:Naka, lat:36.457500 lng:140.486694 [Japan] Population:53035
+testCity Name:Usa, lat:33.531898 lng:131.349396 [Japan] Population:52767
+testCity Name:Imaricho-ko, lat:33.264702 lng:129.880798 [Japan] Population:52694
+testCity Name:Minami-Soma, lat:37.642200 lng:140.957199 [Japan] Population:52619
+testCity Name:Miyakojima, lat:24.805599 lng:125.281097 [Japan] Population:52390
+testCity Name:Shiraoka, lat:36.018902 lng:139.676895 [Japan] Population:52103
+testCity Name:Shiogama, lat:38.314400 lng:141.022202 [Japan] Population:51999
+testCity Name:Izumi, lat:32.090599 lng:130.352798 [Japan] Population:51893
+testCity Name:Tomiya, lat:38.400002 lng:140.895294 [Japan] Population:51859
+testCity Name:Bando, lat:36.048302 lng:139.888901 [Japan] Population:51511
+testCity Name:Tsukubamirai, lat:35.963100 lng:140.037201 [Japan] Population:51134
+testCity Name:Fuchu, lat:34.392502 lng:132.504395 [Japan] Population:51096
+testCity Name:Nanao, lat:37.033298 lng:136.966705 [Japan] Population:51001
+testCity Name:Kyotango, lat:35.624199 lng:135.061096 [Japan] Population:50857
+testCity Name:Miyako, lat:39.641399 lng:141.957199 [Japan] Population:50855
+testCity Name:Goshogawara, lat:40.808102 lng:140.440002 [Japan] Population:50757
+testCity Name:Sakaidecho, lat:34.316399 lng:133.860596 [Japan] Population:50577
+testCity Name:Arao, lat:32.986698 lng:130.433304 [Japan] Population:50570
+testCity Name:Susono, lat:35.173901 lng:138.906693 [Japan] Population:50510
+testCity Name:Yuki, lat:36.305302 lng:139.877502 [Japan] Population:50218
+testCity Name:Nakagawa, lat:33.499401 lng:130.422195 [Japan] Population:50186
+testCity Name:Yasu, lat:35.067501 lng:136.025803 [Japan] Population:50049
+testCity Name:Miyoshi, lat:34.805801 lng:132.851700 [Japan] Population:50046
+testCity Name:Kameyama, lat:34.855801 lng:136.451706 [Japan] Population:49971
+testCity Name:Satte, lat:36.078098 lng:139.725800 [Japan] Population:49961
+testCity Name:Nichinan, lat:31.601900 lng:131.378906 [Japan] Population:49899
+testCity Name:Hannan, lat:34.359402 lng:135.239700 [Japan] Population:49794
+testCity Name:Noshiromachi, lat:40.212200 lng:140.026703 [Japan] Population:49625
+testCity Name:Tokamachi, lat:37.127499 lng:138.755707 [Japan] Population:49472
+testCity Name:Tomisato, lat:35.726700 lng:140.343094 [Japan] Population:49470
+testCity Name:Suzaka, lat:36.651100 lng:138.306900 [Japan] Population:49393
+testCity Name:Asakura, lat:33.423302 lng:130.665604 [Japan] Population:49254
+testCity Name:Higashiura, lat:34.977200 lng:136.965607 [Japan] Population:49252
+testCity Name:Midori, lat:36.394699 lng:139.281097 [Japan] Population:49190
+testCity Name:Hikari, lat:33.961700 lng:131.942200 [Japan] Population:49013
+testCity Name:Nomimachi, lat:36.437500 lng:136.496094 [Japan] Population:48860
+testCity Name:Chikugo, lat:33.212200 lng:130.502197 [Japan] Population:48794
+testCity Name:Yamaga, lat:33.016701 lng:130.691406 [Japan] Population:48753
+testCity Name:Takahama, lat:34.927601 lng:136.987701 [Japan] Population:48685
+testCity Name:Omitama, lat:36.239399 lng:140.352493 [Japan] Population:48555
+testCity Name:Suzukawa, lat:35.373100 lng:139.384201 [Japan] Population:48532
+testCity Name:Suwa, lat:36.039200 lng:138.114197 [Japan] Population:48309
+testCity Name:Ishigaki, lat:24.333300 lng:124.150002 [Japan] Population:48258
+testCity Name:Sanmu, lat:35.602798 lng:140.413605 [Japan] Population:48196
+testCity Name:Ami, lat:36.033298 lng:140.199997 [Japan] Population:48072
+testCity Name:Ena, lat:35.449402 lng:137.412796 [Japan] Population:47999
+testCity Name:Kasuya, lat:33.610802 lng:130.480606 [Japan] Population:47981
+testCity Name:Iwakura, lat:35.283298 lng:136.866699 [Japan] Population:47975
+testCity Name:Higashine, lat:38.431400 lng:140.391098 [Japan] Population:47747
+testCity Name:Oamishirasato, lat:35.521702 lng:140.321106 [Japan] Population:47722
+testCity Name:Shimotsucho-kominami, lat:34.155602 lng:135.209198 [Japan] Population:47697
+testCity Name:Takeocho-takeo, lat:33.193901 lng:130.019196 [Japan] Population:47681
+testCity Name:Tonami, lat:36.650002 lng:136.966705 [Japan] Population:47638
+testCity Name:Hitachi-ota, lat:36.538300 lng:140.531097 [Japan] Population:47586
+testCity Name:Okaya, lat:36.066898 lng:138.049393 [Japan] Population:47499
+testCity Name:Nanto, lat:36.583302 lng:136.916702 [Japan] Population:47390
+testCity Name:Ono, lat:34.853100 lng:134.931702 [Japan] Population:47316
+testCity Name:Gosen, lat:37.656399 lng:139.226395 [Japan] Population:47262
+testCity Name:Kikugawa, lat:34.757801 lng:138.084198 [Japan] Population:47194
+testCity Name:Tomioka, lat:36.259998 lng:138.889999 [Japan] Population:46928
+testCity Name:Noboribetsu, lat:42.412800 lng:141.106705 [Japan] Population:46838
+testCity Name:Sanuki, lat:34.325298 lng:134.172195 [Japan] Population:46723
+testCity Name:Hioki, lat:31.633600 lng:130.402206 [Japan] Population:46671
+testCity Name:Fujiyoshida, lat:35.487499 lng:138.807693 [Japan] Population:46659
+testCity Name:Nakai, lat:33.575600 lng:133.641403 [Japan] Population:46567
+testCity Name:Kurayoshi, lat:35.430000 lng:133.825607 [Japan] Population:46269
+testCity Name:Takashima, lat:35.352798 lng:136.035599 [Japan] Population:46246
+testCity Name:Izunokuni, lat:35.027802 lng:138.928894 [Japan] Population:46212
+testCity Name:Shimeo, lat:33.591400 lng:130.479706 [Japan] Population:46207
+testCity Name:Kasaoka, lat:34.507198 lng:133.507202 [Japan] Population:46080
+testCity Name:Kikuchi, lat:32.979401 lng:130.813293 [Japan] Population:45971
+testCity Name:Tamagawa, lat:33.638901 lng:130.806107 [Japan] Population:45946
+testCity Name:Hokota, lat:36.158600 lng:140.516403 [Japan] Population:45910
+testCity Name:Shima, lat:34.328300 lng:136.830597 [Japan] Population:45834
+testCity Name:Hokuto, lat:41.824200 lng:140.652802 [Japan] Population:45661
+testCity Name:Kitakata, lat:37.651100 lng:139.874695 [Japan] Population:45590
+testCity Name:Kariya, lat:34.755001 lng:134.390305 [Japan] Population:45473
+testCity Name:Inuma, lat:36.000000 lng:139.623901 [Japan] Population:45065
+testCity Name:Numata, lat:36.643902 lng:139.042801 [Japan] Population:44782
+testCity Name:Sakura, lat:36.685299 lng:139.966400 [Japan] Population:44777
+testCity Name:Tateyama, lat:34.996700 lng:139.869995 [Japan] Population:44692
+testCity Name:Masuda, lat:34.674999 lng:131.842804 [Japan] Population:44474
+testCity Name:Iwanuma, lat:38.104401 lng:140.869995 [Japan] Population:44340
+testCity Name:Nanjo, lat:26.163300 lng:127.770599 [Japan] Population:44318
+testCity Name:Hagi, lat:34.407799 lng:131.398895 [Japan] Population:44118
+testCity Name:Togo, lat:35.096901 lng:137.052505 [Japan] Population:44065
+testCity Name:Otofuke, lat:42.991699 lng:143.200302 [Japan] Population:44049
+testCity Name:Goshikicho-aihara-minamidani, lat:34.295799 lng:134.779205 [Japan] Population:43914
+testCity Name:Sugito, lat:36.031101 lng:139.726395 [Japan] Population:43755
+testCity Name:Himi, lat:36.849998 lng:136.983307 [Japan] Population:43747
+testCity Name:Shinshiro, lat:34.900002 lng:137.500000 [Japan] Population:43620
+testCity Name:Kumatori, lat:34.401402 lng:135.356094 [Japan] Population:43570
+testCity Name:Hokuto, lat:35.776699 lng:138.423599 [Japan] Population:43452
+testCity Name:Kikuyo, lat:32.862499 lng:130.828598 [Japan] Population:43443
+testCity Name:Ogimachi, lat:33.250599 lng:130.201706 [Japan] Population:43257
+testCity Name:Nagaizumi, lat:35.137798 lng:138.897202 [Japan] Population:43204
+testCity Name:Kobayashi, lat:31.996700 lng:130.972794 [Japan] Population:43114
+testCity Name:Taketoyo, lat:34.851398 lng:136.914993 [Japan] Population:43095
+testCity Name:Makinohara, lat:34.740002 lng:138.224701 [Japan] Population:43061
+testCity Name:Yatomi, lat:35.116699 lng:136.716705 [Japan] Population:43038
+testCity Name:Shimabara, lat:32.775600 lng:130.338104 [Japan] Population:42858
+testCity Name:Taniyama-chuo, lat:31.521099 lng:130.517593 [Japan] Population:42683
+testCity Name:Kota, lat:34.864700 lng:137.165604 [Japan] Population:42523
+testCity Name:Akaiwa, lat:34.755299 lng:134.018906 [Japan] Population:42341
+testCity Name:Kasai, lat:34.927799 lng:134.841904 [Japan] Population:42290
+testCity Name:Futtsu, lat:35.304199 lng:139.856903 [Japan] Population:42280
+testCity Name:Maniwa, lat:35.075600 lng:133.752502 [Japan] Population:42259
+testCity Name:Nakano, lat:36.741901 lng:138.369400 [Japan] Population:41972
+testCity Name:Minamishimabara, lat:32.659698 lng:130.297806 [Japan] Population:41903
+testCity Name:Miura, lat:35.144199 lng:139.620605 [Japan] Population:41807
+testCity Name:Oizumi, lat:36.247799 lng:139.404999 [Japan] Population:41681
+testCity Name:Yuzawa, lat:39.164398 lng:140.495804 [Japan] Population:41601
+testCity Name:Shimotsuma, lat:36.184399 lng:139.967499 [Japan] Population:41499
+testCity Name:Kitaibaraki, lat:36.801899 lng:140.751099 [Japan] Population:41352
+testCity Name:Obita, lat:32.825298 lng:129.875000 [Japan] Population:41341
+testCity Name:Nanbei, lat:35.320599 lng:139.100006 [Japan] Population:41259
+testCity Name:Awaji, lat:34.433300 lng:134.916702 [Japan] Population:41127
+testCity Name:Komoro, lat:36.327499 lng:138.425797 [Japan] Population:41066
+testCity Name:Amami, lat:28.377199 lng:129.493896 [Japan] Population:41049
+testCity Name:Unzen, lat:32.835300 lng:130.187500 [Japan] Population:41018
+testCity Name:Sumoto, lat:34.342201 lng:134.894394 [Japan] Population:40904
+testCity Name:Uozu, lat:36.799999 lng:137.399994 [Japan] Population:40828
+testCity Name:Kato, lat:34.917500 lng:134.973602 [Japan] Population:40728
+testCity Name:Katsuren-haebaru, lat:26.191099 lng:127.728600 [Japan] Population:40541
+testCity Name:Agano, lat:37.834400 lng:139.225998 [Japan] Population:40382
+testCity Name:Komono, lat:35.000000 lng:136.516693 [Japan] Population:40329
+testCity Name:Ozu, lat:33.506401 lng:132.544693 [Japan] Population:40289
+testCity Name:Itoigawa, lat:37.033298 lng:137.866699 [Japan] Population:40200
+testCity Name:Kasumigaura, lat:36.151901 lng:140.237198 [Japan] Population:39993
+testCity Name:Sagae, lat:38.381100 lng:140.276093 [Japan] Population:39854
+testCity Name:Yomitan, lat:26.396099 lng:127.744400 [Japan] Population:39791
+testCity Name:Kurobeshin, lat:36.866699 lng:137.449997 [Japan] Population:39718
+testCity Name:Masaki, lat:33.787601 lng:132.711197 [Japan] Population:39681
+testCity Name:Nakama, lat:33.816700 lng:130.709000 [Japan] Population:39634
+testCity Name:Takikawa, lat:43.557800 lng:141.910599 [Japan] Population:39266
+testCity Name:Aizawa, lat:35.528900 lng:139.321701 [Japan] Population:39260
+testCity Name:Tamba-Sasayama, lat:35.075802 lng:135.219193 [Japan] Population:39245
+testCity Name:Mibu, lat:36.416698 lng:139.800003 [Japan] Population:39151
+testCity Name:Mitsuke, lat:37.533298 lng:138.916702 [Japan] Population:39024
+testCity Name:Higashimatsushima, lat:38.426399 lng:141.210602 [Japan] Population:38880
+testCity Name:Inashiki, lat:35.956699 lng:140.323898 [Japan] Population:38853
+testCity Name:Hitachiomiya, lat:36.549999 lng:140.416702 [Japan] Population:38836
+testCity Name:Omagari, lat:39.453098 lng:140.475403 [Japan] Population:38794
+testCity Name:Gujo, lat:35.748600 lng:136.964401 [Japan] Population:38747
+testCity Name:Yoshinogawa, lat:34.066399 lng:134.358597 [Japan] Population:38726
+testCity Name:Sakuragawa, lat:36.327202 lng:140.090607 [Japan] Population:38677
+testCity Name:Shibata, lat:38.056400 lng:140.765793 [Japan] Population:38638
+testCity Name:Ibusuki, lat:31.252800 lng:130.633102 [Japan] Population:38571
+testCity Name:Nishiwaki, lat:34.993301 lng:134.969406 [Japan] Population:38479
+testCity Name:Miyoshidai, lat:35.828300 lng:139.526703 [Japan] Population:38380
+testCity Name:Misawa, lat:40.683300 lng:141.368896 [Japan] Population:38351
+testCity Name:Ibara, lat:34.597801 lng:133.463898 [Japan] Population:38236
+testCity Name:Umi, lat:33.567799 lng:130.511093 [Japan] Population:37713
+testCity Name:Tokai, lat:36.473099 lng:140.566101 [Japan] Population:37700
+testCity Name:Maibara, lat:35.315300 lng:136.283905 [Japan] Population:37374
+testCity Name:Katsuragi, lat:34.489201 lng:135.726700 [Japan] Population:37225
+testCity Name:Kanie, lat:35.133301 lng:136.800003 [Japan] Population:36782
+testCity Name:Fuchucho, lat:34.568298 lng:133.236404 [Japan] Population:36754
+testCity Name:Soma, lat:37.796700 lng:140.919693 [Japan] Population:36752
+testCity Name:Tsubata, lat:36.668598 lng:136.728302 [Japan] Population:36728
+testCity Name:Mizunami, lat:35.361900 lng:137.254395 [Japan] Population:36721
+testCity Name:Yasugicho, lat:35.431702 lng:133.250793 [Japan] Population:36713
+testCity Name:Kannan, lat:35.089401 lng:138.945297 [Japan] Population:36607
+testCity Name:Komatsushimacho, lat:34.004700 lng:134.590607 [Japan] Population:36123
+testCity Name:Kanada, lat:33.776100 lng:130.980606 [Japan] Population:36075
+testCity Name:Tamamura, lat:36.304401 lng:139.115005 [Japan] Population:36041
+testCity Name:Seika, lat:34.760799 lng:135.785797 [Japan] Population:35951
+testCity Name:Uto, lat:32.687500 lng:130.658295 [Japan] Population:35947
+testCity Name:Usuki, lat:33.125801 lng:131.804703 [Japan] Population:35681
+testCity Name:Miyajima, lat:33.152500 lng:130.474701 [Japan] Population:35665
+testCity Name:Setouchi, lat:34.665001 lng:134.092804 [Japan] Population:35624
+testCity Name:Isumi, lat:35.253899 lng:140.385300 [Japan] Population:35570
+testCity Name:Rifu, lat:38.330299 lng:140.975601 [Japan] Population:35521
+testCity Name:Minami-Boso, lat:35.043301 lng:139.840302 [Japan] Population:35454
+testCity Name:Morohongo, lat:35.941700 lng:139.316101 [Japan] Population:35370
+testCity Name:Unnan, lat:35.287800 lng:132.900604 [Japan] Population:35366
+testCity Name:Atami, lat:35.096100 lng:139.071701 [Japan] Population:35276
+testCity Name:Aizumi, lat:34.126701 lng:134.494995 [Japan] Population:35269
+testCity Name:Kamata, lat:33.563301 lng:130.711700 [Japan] Population:35208
+testCity Name:Tamura, lat:37.441399 lng:140.569199 [Japan] Population:35042
+testCity Name:Ozu, lat:32.880299 lng:130.871704 [Japan] Population:34975
+testCity Name:Kahoku, lat:36.720001 lng:136.706696 [Japan] Population:34936
+testCity Name:Iyo, lat:33.757500 lng:132.703903 [Japan] Population:34927
+testCity Name:Seiyo, lat:33.363098 lng:132.511093 [Japan] Population:34898
+testCity Name:Nishihara, lat:26.226101 lng:127.765602 [Japan] Population:34802
+testCity Name:Abashiri, lat:44.020599 lng:144.273605 [Japan] Population:34640
+testCity Name:Awa, lat:34.078899 lng:134.238297 [Japan] Population:34569
+testCity Name:Ofunato, lat:39.082199 lng:141.708298 [Japan] Population:34568
+testCity Name:Sosa, lat:35.707802 lng:140.564407 [Japan] Population:34427
+testCity Name:Goto, lat:32.695599 lng:128.840805 [Japan] Population:34425
+testCity Name:Inabe, lat:35.115799 lng:136.561401 [Japan] Population:34323
+testCity Name:Shinjo, lat:38.764999 lng:140.301605 [Japan] Population:34284
+testCity Name:Fuso, lat:35.359200 lng:136.913101 [Japan] Population:34268
+testCity Name:Toon, lat:33.791000 lng:132.872192 [Japan] Population:34195
+testCity Name:Shiso, lat:35.005798 lng:134.548599 [Japan] Population:34116
+testCity Name:Uonuma, lat:37.233299 lng:138.966705 [Japan] Population:34112
+testCity Name:Minamishiro, lat:36.022499 lng:139.722794 [Japan] Population:34012
+testCity Name:Harima, lat:34.715302 lng:134.868103 [Japan] Population:33822
+testCity Name:Ojiya, lat:37.314400 lng:138.795105 [Japan] Population:33729
+testCity Name:Koryo, lat:34.542801 lng:135.750793 [Japan] Population:33617
+testCity Name:Shobara, lat:34.857800 lng:133.016693 [Japan] Population:33409
+testCity Name:Date, lat:42.471901 lng:140.864700 [Japan] Population:33404
+testCity Name:Taishi, lat:34.833599 lng:134.578094 [Japan] Population:33321
+testCity Name:Minamikyushu, lat:31.378300 lng:130.441696 [Japan] Population:33115
+testCity Name:Bungoono, lat:32.978100 lng:131.585007 [Japan] Population:33066
+testCity Name:Kamaishi, lat:39.275799 lng:141.885605 [Japan] Population:33061
+testCity Name:Wakabadai, lat:45.400002 lng:141.699997 [Japan] Population:33036
+testCity Name:Shingu, lat:33.713902 lng:130.431396 [Japan] Population:33017
+testCity Name:Yamanashi, lat:35.692200 lng:138.685303 [Japan] Population:32925
+testCity Name:So, lat:31.653601 lng:131.019196 [Japan] Population:32849
+testCity Name:Watari, lat:38.037800 lng:140.852798 [Japan] Population:32846
+testCity Name:Kuji, lat:40.190300 lng:141.775299 [Japan] Population:32813
+testCity Name:Yufu, lat:33.180000 lng:131.426697 [Japan] Population:32698
+testCity Name:Asakuchi, lat:34.527802 lng:133.585007 [Japan] Population:32669
+testCity Name:Motosu, lat:35.483101 lng:136.678604 [Japan] Population:32664
+testCity Name:Osawa, lat:33.206699 lng:130.383896 [Japan] Population:32609
+testCity Name:Oharu, lat:35.174999 lng:136.820007 [Japan] Population:32590
+testCity Name:Mashiki, lat:32.791401 lng:130.816406 [Japan] Population:32587
+testCity Name:Shiroishi, lat:38.002201 lng:140.619705 [Japan] Population:32570
+testCity Name:Shimanto, lat:32.991699 lng:132.933899 [Japan] Population:32551
+testCity Name:Sakaiminato, lat:35.539700 lng:133.231705 [Japan] Population:32503
+testCity Name:Minamisatsuma, lat:31.416700 lng:130.323303 [Japan] Population:32503
+testCity Name:Kaizu, lat:35.220600 lng:136.636703 [Japan] Population:32493
+testCity Name:Namerikawa, lat:36.766701 lng:137.333298 [Japan] Population:32317
+testCity Name:Nagato, lat:34.371101 lng:131.182205 [Japan] Population:32183
+testCity Name:Konan, lat:33.564201 lng:133.700607 [Japan] Population:32123
+testCity Name:Mizuho, lat:35.771900 lng:139.353897 [Japan] Population:32108
+testCity Name:Odacho-oda, lat:35.192200 lng:132.499695 [Japan] Population:32102
+testCity Name:Bizen, lat:34.744999 lng:134.188095 [Japan] Population:32077
+testCity Name:Yorii, lat:36.115601 lng:139.194199 [Japan] Population:32039
+testCity Name:Shima, lat:39.554699 lng:141.167801 [Japan] Population:32036
+testCity Name:Namegata, lat:35.990299 lng:140.489197 [Japan] Population:31828
+testCity Name:Komagane, lat:35.728901 lng:137.933899 [Japan] Population:31763
+testCity Name:Shimizucho, lat:35.099201 lng:138.902802 [Japan] Population:31652
+testCity Name:Zentsujicho, lat:34.228298 lng:133.787201 [Japan] Population:31620
+testCity Name:Kuroishi, lat:40.642799 lng:140.594406 [Japan] Population:31604
+testCity Name:Katagami, lat:39.883301 lng:139.988907 [Japan] Population:31558
+testCity Name:Maebara, lat:35.114201 lng:140.098907 [Japan] Population:31554
+testCity Name:Hayama, lat:35.271900 lng:139.586395 [Japan] Population:31546
+testCity Name:Ayabe, lat:35.298901 lng:135.258606 [Japan] Population:31537
+testCity Name:Yawatahama-shi, lat:33.463100 lng:132.423294 [Japan] Population:31363
+testCity Name:Hitoyoshi, lat:32.209999 lng:130.762497 [Japan] Population:31332
+testCity Name:Shimotoba, lat:34.883900 lng:135.662796 [Japan] Population:31292
+testCity Name:Ibaraki, lat:36.286900 lng:140.424698 [Japan] Population:31278
+testCity Name:Yaita, lat:36.806702 lng:139.924194 [Japan] Population:31145
+testCity Name:Oiso, lat:35.306900 lng:139.311401 [Japan] Population:31121
+testCity Name:Sasaguri, lat:33.623901 lng:130.526398 [Japan] Population:31092
+testCity Name:Nantan, lat:35.107201 lng:135.470001 [Japan] Population:31075
+testCity Name:Chuo, lat:35.599701 lng:138.517197 [Japan] Population:31053
+testCity Name:Yaese, lat:26.158199 lng:127.718597 [Japan] Population:30974
+testCity Name:Tawaramoto, lat:34.554199 lng:135.793106 [Japan] Population:30950
+testCity Name:Okagaki, lat:33.853600 lng:130.611404 [Japan] Population:30891
+testCity Name:Kaminokawa, lat:36.433300 lng:139.916702 [Japan] Population:30886
+testCity Name:Kanzakimachi-kanzaki, lat:33.310799 lng:130.373093 [Japan] Population:30686
+testCity Name:Yunoshima, lat:35.805801 lng:137.244202 [Japan] Population:30641
+testCity Name:Omaezaki, lat:34.638100 lng:138.128098 [Japan] Population:30562
+testCity Name:Yanai, lat:33.963902 lng:132.101700 [Japan] Population:30461
+testCity Name:Ono, lat:35.980598 lng:136.487503 [Japan] Population:30449
+testCity Name:Nanyo, lat:38.055302 lng:140.148300 [Japan] Population:30343
+testCity Name:Hirakawacho, lat:40.584202 lng:140.566406 [Japan] Population:30326
+testCity Name:Myoko, lat:37.033298 lng:138.250000 [Japan] Population:30300
+testCity Name:Motomiya, lat:37.513302 lng:140.393906 [Japan] Population:30253
+testCity Name:Tsuru, lat:35.551399 lng:138.905594 [Japan] Population:30193
+testCity Name:Tsuruno, lat:40.808899 lng:140.380005 [Japan] Population:30164
+testCity Name:Inami, lat:34.748901 lng:134.913605 [Japan] Population:30148
+testCity Name:Kamisato, lat:36.251900 lng:139.144699 [Japan] Population:29987
+testCity Name:Kaita, lat:34.372200 lng:132.536102 [Japan] Population:29793
+testCity Name:Kitaakita, lat:40.226101 lng:140.370804 [Japan] Population:29696
+testCity Name:Chikuzen, lat:33.456902 lng:130.595306 [Japan] Population:29608
+testCity Name:Inagawa, lat:34.895000 lng:135.376099 [Japan] Population:29571
+testCity Name:Shibushi, lat:31.477200 lng:131.099899 [Japan] Population:29267
+testCity Name:Tomi, lat:36.359402 lng:138.330597 [Japan] Population:29213
+testCity Name:Kaminoyama, lat:38.149700 lng:140.267807 [Japan] Population:29141
+testCity Name:Takanezawa, lat:36.631100 lng:139.986694 [Japan] Population:29123
+testCity Name:Togitsu, lat:32.828899 lng:129.848602 [Japan] Population:29025
+testCity Name:Koshu, lat:35.705299 lng:138.729401 [Japan] Population:29017
+testCity Name:Hanawa, lat:40.215801 lng:140.788300 [Japan] Population:28929
+testCity Name:Nirasaki, lat:35.708900 lng:138.446396 [Japan] Population:28896
+testCity Name:Takahashi, lat:34.791000 lng:133.616806 [Japan] Population:28825
+testCity Name:Hirado, lat:33.368099 lng:129.553894 [Japan] Population:28822
+testCity Name:Yoshida, lat:34.770802 lng:138.251907 [Japan] Population:28811
+testCity Name:Oyabe, lat:36.683300 lng:136.866699 [Japan] Population:28634
+testCity Name:Saito, lat:32.108601 lng:131.401398 [Japan] Population:28618
+testCity Name:Asago, lat:35.325001 lng:134.850006 [Japan] Population:28586
+testCity Name:Matsubushi, lat:35.925800 lng:139.815308 [Japan] Population:28494
+testCity Name:Izu, lat:34.976700 lng:138.946899 [Japan] Population:28493
+testCity Name:Sue, lat:33.587200 lng:130.507202 [Japan] Population:28489
+testCity Name:Tsushima, lat:34.202801 lng:129.287506 [Japan] Population:28456
+testCity Name:Ogawa, lat:36.053299 lng:139.266098 [Japan] Population:28386
+testCity Name:Aioi, lat:34.803600 lng:134.468094 [Japan] Population:28350
+testCity Name:Taiwa, lat:38.446400 lng:140.886398 [Japan] Population:28307
+testCity Name:Higashikagawa, lat:34.243900 lng:134.358902 [Japan] Population:28305
+testCity Name:Agui, lat:34.932499 lng:136.915604 [Japan] Population:28176
+testCity Name:Chatan, lat:26.320000 lng:127.763901 [Japan] Population:28167
+testCity Name:Obama, lat:35.495602 lng:135.746704 [Japan] Population:28142
+testCity Name:Mima, lat:34.053299 lng:134.169998 [Japan] Population:28087
+testCity Name:Honcho, lat:41.895802 lng:140.694397 [Japan] Population:28073
+testCity Name:Tainai, lat:38.066700 lng:139.416702 [Japan] Population:28004
+testCity Name:Hiji, lat:33.370800 lng:131.530304 [Japan] Population:27887
+testCity Name:Kakuda, lat:37.977200 lng:140.781906 [Japan] Population:27848
+testCity Name:Mizumaki, lat:33.849998 lng:130.699997 [Japan] Population:27822
+testCity Name:Ouda-yamaguchi, lat:34.527802 lng:135.952499 [Japan] Population:27747
+testCity Name:Kashima, lat:33.104198 lng:130.098602 [Japan] Population:27710
+testCity Name:Kitsuki, lat:33.419998 lng:131.618393 [Japan] Population:27668
+testCity Name:Hikawa, lat:35.392899 lng:132.843201 [Japan] Population:27641
+testCity Name:Yahaba, lat:39.605801 lng:141.143097 [Japan] Population:27638
+testCity Name:Gojo, lat:34.352001 lng:135.693695 [Japan] Population:27578
+testCity Name:Ninomiya, lat:35.299400 lng:139.255295 [Japan] Population:27536
+testCity Name:Niimi, lat:34.977200 lng:133.470306 [Japan] Population:27526
+testCity Name:Ukiha, lat:33.347198 lng:130.755005 [Japan] Population:27474
+testCity Name:Itako, lat:35.947201 lng:140.555298 [Japan] Population:27373
+testCity Name:Ikaruga, lat:34.616699 lng:135.733307 [Japan] Population:27330
+testCity Name:Takahagi, lat:36.713600 lng:140.709702 [Japan] Population:27251
+testCity Name:Akitakata, lat:34.666401 lng:132.703903 [Japan] Population:27249
+testCity Name:Awara, lat:36.211399 lng:136.228897 [Japan] Population:27107
+testCity Name:Ichikikushikino, lat:31.714701 lng:130.271896 [Japan] Population:27080
+testCity Name:Nayoro, lat:44.355801 lng:142.463303 [Japan] Population:27062
+testCity Name:Miki, lat:34.268299 lng:134.134399 [Japan] Population:26859
+testCity Name:Miyanaga, lat:33.723598 lng:130.666702 [Japan] Population:26690
+testCity Name:Shingu, lat:33.716702 lng:136.000000 [Japan] Population:26628
+testCity Name:Yoro, lat:35.308300 lng:136.561401 [Japan] Population:26565
+testCity Name:Tarui, lat:35.366699 lng:136.533295 [Japan] Population:26558
+testCity Name:Uchinada, lat:36.653599 lng:136.645004 [Japan] Population:26503
+testCity Name:Otake, lat:34.200001 lng:132.216705 [Japan] Population:26458
+testCity Name:Makubetsu, lat:42.908298 lng:143.356094 [Japan] Population:26444
+testCity Name:Kami, lat:33.603901 lng:133.686096 [Japan] Population:26376
+testCity Name:Saikaicho-kobago, lat:32.933102 lng:129.643097 [Japan] Population:26188
+testCity Name:Omachi, lat:36.500000 lng:137.850006 [Japan] Population:25883
+testCity Name:Nagai, lat:38.107800 lng:140.040604 [Japan] Population:25836
+testCity Name:Kunisakimachi-tsurugawa, lat:33.565300 lng:131.731705 [Japan] Population:25790
+testCity Name:Ginan, lat:35.389702 lng:136.782806 [Japan] Population:25752
+testCity Name:Arida, lat:34.083099 lng:135.127808 [Japan] Population:25737
+testCity Name:Tosa, lat:33.496101 lng:133.425293 [Japan] Population:25665
+testCity Name:Toin, lat:35.074200 lng:136.583603 [Japan] Population:25658
+testCity Name:Ora, lat:36.263901 lng:139.467499 [Japan] Population:25623
+testCity Name:Ureshinomachi-shimojuku, lat:33.127800 lng:130.059998 [Japan] Population:25593
+testCity Name:Mimasaka, lat:35.008598 lng:134.148605 [Japan] Population:25497
+testCity Name:Fujikawaguchiko, lat:35.497200 lng:138.755005 [Japan] Population:25495
+testCity Name:Mimata, lat:31.730801 lng:131.125000 [Japan] Population:25474
+testCity Name:Miyaki, lat:33.325001 lng:130.454407 [Japan] Population:25386
+testCity Name:Yamagata, lat:35.506100 lng:136.781403 [Japan] Population:25325
+testCity Name:Tono, lat:39.327499 lng:141.533600 [Japan] Population:25181
+testCity Name:Aridagawa, lat:34.057499 lng:135.216095 [Japan] Population:25169
+testCity Name:Kamo, lat:37.666698 lng:139.033295 [Japan] Population:25086
+testCity Name:Ninohe, lat:40.271099 lng:141.304703 [Japan] Population:25083
+testCity Name:Tateyama, lat:36.666698 lng:137.316696 [Japan] Population:24996
+testCity Name:Nogi, lat:36.233101 lng:139.740799 [Japan] Population:24903
+testCity Name:Minowa, lat:35.915001 lng:137.981903 [Japan] Population:24887
+testCity Name:Iki, lat:33.748901 lng:129.693893 [Japan] Population:24873
+testCity Name:Nemuro, lat:43.330002 lng:145.583099 [Japan] Population:24858
+testCity Name:Ishii, lat:34.074699 lng:134.440598 [Japan] Population:24856
+testCity Name:Aso, lat:32.937302 lng:131.080093 [Japan] Population:24820
+testCity Name:Oga, lat:39.886700 lng:139.847794 [Japan] Population:24690
+testCity Name:Senboku, lat:39.700001 lng:140.730606 [Japan] Population:24515
+testCity Name:Nasukarasuyama, lat:36.656898 lng:140.151703 [Japan] Population:24456
+testCity Name:Oirase, lat:40.599201 lng:141.397797 [Japan] Population:24407
+testCity Name:Buzen, lat:33.611698 lng:131.130295 [Japan] Population:24369
+testCity Name:Gose, lat:34.463299 lng:135.740295 [Japan] Population:24317
+testCity Name:Oguchi, lat:35.332500 lng:136.907806 [Japan] Population:24234
+testCity Name:Isa, lat:32.057201 lng:130.613098 [Japan] Population:24131
+testCity Name:Sakai, lat:36.108601 lng:139.794998 [Japan] Population:24035
+testCity Name:Kamiamakusa, lat:32.587502 lng:130.430603 [Japan] Population:23973
+testCity Name:Wajimazakimachi, lat:37.390598 lng:136.899200 [Japan] Population:23906
+testCity Name:Misato, lat:38.544399 lng:141.056900 [Japan] Population:23796
+testCity Name:Hachimantai, lat:39.926399 lng:141.095306 [Japan] Population:23742
+testCity Name:Oji, lat:34.594700 lng:135.706894 [Japan] Population:23731
+testCity Name:Takehara, lat:34.341702 lng:132.906906 [Japan] Population:23631
+testCity Name:Ogawara, lat:38.049999 lng:140.733597 [Japan] Population:23586
+testCity Name:Nyuzen, lat:36.933300 lng:137.500000 [Japan] Population:23537
+testCity Name:Miyoshi, lat:34.026001 lng:133.807205 [Japan] Population:23500
+testCity Name:Yugawara, lat:35.147800 lng:139.108307 [Japan] Population:23480
+testCity Name:Nasu, lat:37.019699 lng:140.121094 [Japan] Population:23435
+testCity Name:Ikeda, lat:35.442200 lng:136.573105 [Japan] Population:23310
+testCity Name:Sanga, lat:34.600300 lng:135.695602 [Japan] Population:23264
+testCity Name:Mine, lat:34.166698 lng:131.205795 [Japan] Population:23236
+testCity Name:Nakashunbetsu, lat:43.555302 lng:144.971405 [Japan] Population:23211
+testCity Name:Minamata, lat:32.216702 lng:130.399994 [Japan] Population:23155
+testCity Name:Nikaho, lat:39.203098 lng:139.907806 [Japan] Population:22981
+testCity Name:Gotsucho, lat:35.011398 lng:132.221100 [Japan] Population:22838
+testCity Name:Tadotsu, lat:34.272499 lng:133.753601 [Japan] Population:22813
+testCity Name:Kumano, lat:34.335800 lng:132.584396 [Japan] Population:22760
+testCity Name:Gobo, lat:33.891399 lng:135.152496 [Japan] Population:22744
+testCity Name:Ayagawa, lat:34.249401 lng:133.923096 [Japan] Population:22730
+testCity Name:Kitajima, lat:34.125599 lng:134.546906 [Japan] Population:22670
+testCity Name:Furukawa, lat:36.238300 lng:137.186096 [Japan] Population:22585
+testCity Name:Uenohara, lat:35.630299 lng:139.108597 [Japan] Population:22557
+testCity Name:Meiwa, lat:34.547798 lng:136.623596 [Japan] Population:22523
+testCity Name:Mihama, lat:34.778900 lng:136.908295 [Japan] Population:22440
+testCity Name:Kasamatsucho, lat:35.366699 lng:136.766693 [Japan] Population:22415
+testCity Name:Ono, lat:35.470600 lng:136.627502 [Japan] Population:22375
+testCity Name:Otsuki, lat:35.610600 lng:138.940002 [Japan] Population:22356
+testCity Name:Yokoshibahikari, lat:35.665600 lng:140.504196 [Japan] Population:22271
+testCity Name:Takahata, lat:38.002800 lng:140.189194 [Japan] Population:22242
+testCity Name:Yoshioka, lat:36.447498 lng:139.010300 [Japan] Population:22234
+testCity Name:Murayama, lat:38.483299 lng:140.380295 [Japan] Population:22222
+testCity Name:Honmachi, lat:36.060799 lng:136.500595 [Japan] Population:22047
+testCity Name:Nakagusuku, lat:26.267200 lng:127.791100 [Japan] Population:21924
+testCity Name:Shiroishi, lat:33.148300 lng:130.123306 [Japan] Population:21902
+testCity Name:Bungotakada, lat:33.575699 lng:131.506897 [Japan] Population:21901
+testCity Name:Shinhidaka, lat:42.341400 lng:142.368301 [Japan] Population:21873
+testCity Name:Yabu, lat:35.404701 lng:134.767502 [Japan] Population:21813
+testCity Name:Kami, lat:38.571899 lng:140.854996 [Japan] Population:21666
+testCity Name:Mashiko, lat:36.467499 lng:140.093094 [Japan] Population:21621
+testCity Name:Etajima, lat:34.222801 lng:132.444199 [Japan] Population:21557
+testCity Name:Fukuyoshi, lat:33.683300 lng:130.779999 [Japan] Population:21360
+testCity Name:Mobetsu, lat:44.356400 lng:143.354202 [Japan] Population:21317
+testCity Name:Matsuura, lat:33.341099 lng:129.709198 [Japan] Population:21261
+testCity Name:Kanmaki, lat:34.562801 lng:135.716705 [Japan] Population:21145
+testCity Name:Furano, lat:43.341900 lng:142.383301 [Japan] Population:21071
+testCity Name:Hino, lat:35.018101 lng:136.246094 [Japan] Population:20945
+testCity Name:Aisho, lat:35.168900 lng:136.212494 [Japan] Population:20913
+testCity Name:Showa, lat:35.628101 lng:138.535004 [Japan] Population:20857
+testCity Name:Yachiyo, lat:36.181400 lng:139.891403 [Japan] Population:20838
+testCity Name:Ino, lat:33.549999 lng:133.433304 [Japan] Population:20750
+testCity Name:Nishigo, lat:37.141899 lng:140.155304 [Japan] Population:20508
+testCity Name:Bibai, lat:43.332901 lng:141.853806 [Japan] Population:20507
+testCity Name:Shimogamo, lat:34.679401 lng:138.945297 [Japan] Population:20499
+testCity Name:Susaki, lat:33.400799 lng:133.283096 [Japan] Population:20424
+testCity Name:Tobe, lat:33.749199 lng:132.792206 [Japan] Population:20290
+testCity Name:Shisui, lat:35.716702 lng:140.266693 [Japan] Population:20278
+testCity Name:Rumoi, lat:43.941101 lng:141.636902 [Japan] Population:20260
+testCity Name:Satsuma, lat:31.906401 lng:130.455307 [Japan] Population:20093
+testCity Name:Fukagawa, lat:43.723301 lng:142.053604 [Japan] Population:20086
+testCity Name:Hakui, lat:36.893600 lng:136.778900 [Japan] Population:20031
+testCity Name:Takanabe, lat:32.128300 lng:131.503296 [Japan] Population:20030
+testCity Name:Shonai, lat:38.849701 lng:139.904694 [Japan] Population:19977
+testCity Name:Shirahama, lat:33.678101 lng:135.348099 [Japan] Population:19976
+testCity Name:Sakae, lat:35.840801 lng:140.243896 [Japan] Population:19902
+testCity Name:Namegawa, lat:36.066101 lng:139.360794 [Japan] Population:19885
+testCity Name:Makurazaki, lat:31.272800 lng:130.296906 [Japan] Population:19817
+testCity Name:Hirokawa, lat:33.241402 lng:130.551407 [Japan] Population:19801
+testCity Name:Ryuyo, lat:34.678299 lng:137.816696 [Japan] Population:19756
+testCity Name:Yonabaru, lat:26.199400 lng:127.754700 [Japan] Population:19735
+testCity Name:Yosano, lat:35.565300 lng:135.152802 [Japan] Population:19726
+testCity Name:Echizen, lat:35.974201 lng:136.129700 [Japan] Population:19708
+testCity Name:Taketa, lat:32.973598 lng:131.397797 [Japan] Population:19688
+testCity Name:Karuizawa, lat:36.348598 lng:138.596893 [Japan] Population:19648
+testCity Name:Ibigawa, lat:35.486900 lng:136.568100 [Japan] Population:19519
+testCity Name:Kushiro, lat:42.996101 lng:144.466095 [Japan] Population:19391
+testCity Name:Kitatajima, lat:35.981400 lng:139.481705 [Japan] Population:19362
+testCity Name:Mukaiengaru, lat:44.061699 lng:143.528107 [Japan] Population:19358
+testCity Name:Kamiichi, lat:36.700001 lng:137.366699 [Japan] Population:19318
+testCity Name:Iiyama, lat:36.851700 lng:138.365601 [Japan] Population:19279
+testCity Name:Mino, lat:35.544701 lng:136.907501 [Japan] Population:19266
+testCity Name:Taka, lat:35.050301 lng:134.923294 [Japan] Population:19227
+testCity Name:Fukusaki, lat:34.950298 lng:134.760300 [Japan] Population:19143
+testCity Name:Ainan, lat:32.962200 lng:132.583298 [Japan] Population:19131
+testCity Name:Sukumo, lat:32.938900 lng:132.726105 [Japan] Population:19124
+testCity Name:Aizumisato, lat:37.464901 lng:139.834198 [Japan] Population:19078
+testCity Name:Akune, lat:32.014400 lng:130.192795 [Japan] Population:19009
+testCity Name:Motomachi, lat:43.823601 lng:144.107193 [Japan] Population:18943
+testCity Name:Eiheiji, lat:36.092201 lng:136.298599 [Japan] Population:18921
+testCity Name:Utazu, lat:34.310600 lng:133.825607 [Japan] Population:18897
+testCity Name:Arita, lat:33.210602 lng:129.849197 [Japan] Population:18867
+testCity Name:Shimomura, lat:36.069698 lng:138.080307 [Japan] Population:18801
+testCity Name:Onga, lat:33.848099 lng:130.668304 [Japan] Population:18609
+testCity Name:Miyatoko, lat:33.699200 lng:130.920593 [Japan] Population:18599
+testCity Name:Godo, lat:35.416698 lng:136.600006 [Japan] Population:18505
+testCity Name:Tatsuno, lat:35.982498 lng:137.987503 [Japan] Population:18503
+testCity Name:Misato, lat:39.461700 lng:140.582504 [Japan] Population:18493
+testCity Name:Kunitomi, lat:31.990601 lng:131.323593 [Japan] Population:18460
+testCity Name:Memuro-minami, lat:42.911900 lng:143.050797 [Japan] Population:18329
+testCity Name:Kitagata, lat:35.436901 lng:136.686096 [Japan] Population:18308
+testCity Name:Shika, lat:37.006401 lng:136.778107 [Japan] Population:18275
+testCity Name:Yoichi, lat:43.195301 lng:140.783600 [Japan] Population:18252
+testCity Name:Taku, lat:33.288601 lng:130.110306 [Japan] Population:18215
+testCity Name:Kishi, lat:35.336399 lng:139.123306 [Japan] Population:18204
+testCity Name:Oyama, lat:35.366699 lng:138.983307 [Japan] Population:18181
+testCity Name:Rikuzen-Takata, lat:39.015301 lng:141.629395 [Japan] Population:18153
+testCity Name:Minamishibetsucho, lat:44.178600 lng:142.400604 [Japan] Population:18138
+testCity Name:Yoshimi, lat:36.040001 lng:139.453903 [Japan] Population:18133
+testCity Name:Mure, lat:34.337601 lng:134.139694 [Japan] Population:18108
+testCity Name:Heguri, lat:34.629200 lng:135.700607 [Japan] Population:18088
+testCity Name:Toyono, lat:34.918900 lng:135.494202 [Japan] Population:18011
+testCity Name:Ranzan, lat:36.056702 lng:139.320297 [Japan] Population:17954
+testCity Name:Shirosato, lat:36.479198 lng:140.376404 [Japan] Population:17916
+testCity Name:Shichigahama, lat:38.304699 lng:141.059402 [Japan] Population:17793
+testCity Name:Kitahiroshima, lat:34.674400 lng:132.538300 [Japan] Population:17669
+testCity Name:Mitake, lat:35.434399 lng:137.130798 [Japan] Population:17536
+testCity Name:Ebino, lat:32.045601 lng:130.811096 [Japan] Population:17508
+testCity Name:Shin-Kamigoto, lat:32.984402 lng:129.073303 [Japan] Population:17479
+testCity Name:Kiyama, lat:33.426899 lng:130.523102 [Japan] Population:17455
+testCity Name:Kahoku, lat:38.426399 lng:140.314407 [Japan] Population:17435
+testCity Name:Toba, lat:34.481300 lng:136.843399 [Japan] Population:17421
+testCity Name:Kadogawa, lat:32.469700 lng:131.648895 [Japan] Population:17341
+testCity Name:Mori, lat:34.835602 lng:137.927200 [Japan] Population:17333
+testCity Name:Manno, lat:34.192200 lng:133.841400 [Japan] Population:17324
+testCity Name:Miharu, lat:37.441101 lng:140.492798 [Japan] Population:17319
+testCity Name:Minakami, lat:36.678600 lng:138.999100 [Japan] Population:17223
+testCity Name:Tsuiki, lat:33.656101 lng:131.056107 [Japan] Population:17067
+testCity Name:Oi, lat:35.326698 lng:139.156403 [Japan] Population:17062
+testCity Name:Kitanakagusuku, lat:26.301100 lng:127.793098 [Japan] Population:17038
+testCity Name:Hinode, lat:35.742199 lng:139.257507 [Japan] Population:17016
+testCity Name:Kawai, lat:34.578300 lng:135.736694 [Japan] Population:16983
+testCity Name:Yabuki, lat:37.201099 lng:140.338593 [Japan] Population:16823
+testCity Name:Minamichita, lat:34.715302 lng:136.929703 [Japan] Population:16805
+testCity Name:Kushima, lat:31.464500 lng:131.228394 [Japan] Population:16744
+testCity Name:Katsuura, lat:35.152500 lng:140.321106 [Japan] Population:16723
+testCity Name:Kumage, lat:34.049500 lng:131.968994 [Japan] Population:16666
+testCity Name:Tadaoka-higashi, lat:34.486900 lng:135.401093 [Japan] Population:16628
+testCity Name:Miyazu, lat:35.535599 lng:135.195602 [Japan] Population:16564
+testCity Name:Sunagawa, lat:43.494801 lng:141.903503 [Japan] Population:16513
+testCity Name:Shintomi, lat:32.068901 lng:131.487793 [Japan] Population:16495
+testCity Name:Oyodo, lat:34.390598 lng:135.789993 [Japan] Population:16469
+testCity Name:Mifune, lat:32.714401 lng:130.801895 [Japan] Population:16468
+testCity Name:Tohoku, lat:40.728100 lng:141.257797 [Japan] Population:16449
+testCity Name:Nanbu, lat:40.466900 lng:141.381699 [Japan] Population:16449
+testCity Name:Nakanoto, lat:36.988899 lng:136.901703 [Japan] Population:16442
+testCity Name:Shiraoi, lat:42.551102 lng:141.355804 [Japan] Population:16364
+testCity Name:Yoshinogari, lat:33.321098 lng:130.398895 [Japan] Population:16324
+testCity Name:Kotoura, lat:35.495300 lng:133.692795 [Japan] Population:16167
+testCity Name:Aki, lat:33.502499 lng:133.907196 [Japan] Population:16090
+testCity Name:Owase, lat:34.066700 lng:136.183304 [Japan] Population:16079
+testCity Name:Oyamazaki, lat:34.902802 lng:135.688599 [Japan] Population:15991
+testCity Name:Yurihama, lat:35.490002 lng:133.864700 [Japan] Population:15972
+testCity Name:Kumano, lat:33.883301 lng:136.100006 [Japan] Population:15806
+testCity Name:Gonohe, lat:40.531101 lng:141.307800 [Japan] Population:15761
+testCity Name:Toyoyama, lat:35.250801 lng:136.912201 [Japan] Population:15729
+testCity Name:Minamiminowa, lat:35.872799 lng:137.975296 [Japan] Population:15727
+testCity Name:Kasumi, lat:35.632198 lng:134.629196 [Japan] Population:15704
+testCity Name:Oarai, lat:36.313301 lng:140.574997 [Japan] Population:15696
+testCity Name:Yakumo, lat:42.255798 lng:140.265305 [Japan] Population:15674
+testCity Name:Tsukumiura, lat:33.072498 lng:131.861099 [Japan] Population:15664
+testCity Name:Yazu, lat:35.409199 lng:134.250793 [Japan] Population:15642
+testCity Name:Ashikita, lat:32.298901 lng:130.493103 [Japan] Population:15621
+testCity Name:Tobetsu, lat:43.216900 lng:141.516907 [Japan] Population:15618
+testCity Name:Shizukuishi, lat:39.694199 lng:140.984406 [Japan] Population:15589
+testCity Name:Kasagi, lat:34.296398 lng:135.504196 [Japan] Population:15565
+testCity Name:Shimanto, lat:33.208302 lng:133.135605 [Japan] Population:15540
+testCity Name:Sayo, lat:35.004200 lng:134.355804 [Japan] Population:15508
+testCity Name:Kanan, lat:34.491699 lng:135.629700 [Japan] Population:15497
+testCity Name:Miyota, lat:36.321400 lng:138.508896 [Japan] Population:15494
+testCity Name:Daigo, lat:36.768101 lng:140.355301 [Japan] Population:15491
+testCity Name:Tachiarai, lat:33.372501 lng:130.622498 [Japan] Population:15387
+testCity Name:Kanegasaki, lat:39.195599 lng:141.116104 [Japan] Population:15337
+testCity Name:Daisen, lat:35.510799 lng:133.496094 [Japan] Population:15336
+testCity Name:Nagasu, lat:32.929699 lng:130.452805 [Japan] Population:15299
+testCity Name:Noto, lat:37.306702 lng:137.149994 [Japan] Population:15280
+testCity Name:Kumiyama, lat:34.881401 lng:135.732803 [Japan] Population:15200
+testCity Name:Uchiko, lat:33.533100 lng:132.658096 [Japan] Population:15191
+testCity Name:Nakanojomachi, lat:36.587200 lng:138.840805 [Japan] Population:15186
+testCity Name:Wakuya, lat:38.544701 lng:141.134705 [Japan] Population:15177
+testCity Name:Kawaminami, lat:32.191898 lng:131.525803 [Japan] Population:15151
+testCity Name:Kawasaki, lat:33.599998 lng:130.815308 [Japan] Population:15134
+testCity Name:Kutchan, lat:42.901699 lng:140.759201 [Japan] Population:15123
+testCity Name:Tamaki, lat:34.490299 lng:136.630798 [Japan] Population:15113
+testCity Name:Kawagoe, lat:35.023102 lng:136.673904 [Japan] Population:15048
+testCity Name:Kamitonda, lat:33.696098 lng:135.428894 [Japan] Population:15040
+testCity Name:Tone, lat:35.857800 lng:140.139404 [Japan] Population:15035
+testCity Name:Mitane, lat:40.101700 lng:140.005005 [Japan] Population:14944
+testCity Name:Nakagawa, lat:36.738300 lng:140.171402 [Japan] Population:14921
+testCity Name:Aizubange, lat:37.561401 lng:139.821701 [Japan] Population:14906
+testCity Name:Kurate, lat:33.791901 lng:130.674194 [Japan] Population:14901
+testCity Name:Sera, lat:34.586700 lng:133.056702 [Japan] Population:14878
+testCity Name:Mori, lat:42.105000 lng:140.576401 [Japan] Population:14851
+testCity Name:Haga, lat:36.548100 lng:140.058105 [Japan] Population:14833
+testCity Name:Betsukai, lat:43.394199 lng:145.117493 [Japan] Population:14828
+testCity Name:Obanazawa, lat:38.600800 lng:140.405807 [Japan] Population:14760
+testCity Name:Hirono, lat:40.408600 lng:141.718094 [Japan] Population:14757
+testCity Name:Matsushige, lat:34.133900 lng:134.580307 [Japan] Population:14723
+testCity Name:Nishinoomote, lat:30.732500 lng:130.997498 [Japan] Population:14694
+testCity Name:Kushimoto, lat:33.485802 lng:135.786896 [Japan] Population:14661
+testCity Name:Kujukuri, lat:35.535000 lng:140.440598 [Japan] Population:14652
+testCity Name:Misaki, lat:34.316898 lng:135.142197 [Japan] Population:14629
+testCity Name:Suo-Oshima, lat:33.927502 lng:132.195297 [Japan] Population:14605
+testCity Name:Tabuse, lat:33.954700 lng:132.041397 [Japan] Population:14515
+testCity Name:Fujisaki, lat:40.656101 lng:140.502502 [Japan] Population:14478
+testCity Name:Ichikawamisato, lat:35.565300 lng:138.502197 [Japan] Population:14458
+testCity Name:Asagiri, lat:32.240299 lng:130.898102 [Japan] Population:14448
+testCity Name:Kihoku, lat:34.109200 lng:136.231400 [Japan] Population:14392
+testCity Name:Yamada, lat:39.467499 lng:141.948898 [Japan] Population:14388
+testCity Name:Miho, lat:36.004398 lng:140.301895 [Japan] Population:14355
+testCity Name:Hasami, lat:33.138100 lng:129.895599 [Japan] Population:14332
+testCity Name:Anpachi, lat:35.335602 lng:136.665604 [Japan] Population:14330
+testCity Name:Tsukawaki, lat:33.283298 lng:131.151398 [Japan] Population:14306
+testCity Name:Ishikawa, lat:37.144199 lng:140.452194 [Japan] Population:14222
+testCity Name:Shichinohe, lat:40.744701 lng:141.157806 [Japan] Population:14217
+testCity Name:Minamiaizu, lat:37.200298 lng:139.773300 [Japan] Population:14204
+testCity Name:Kawaii, lat:38.004398 lng:140.045807 [Japan] Population:14196
+testCity Name:Shinto, lat:36.440300 lng:138.981400 [Japan] Population:14193
+testCity Name:Taki, lat:34.496101 lng:136.546097 [Japan] Population:14160
+testCity Name:Kakunodatemachi, lat:39.596298 lng:140.561996 [Japan] Population:14138
+testCity Name:Kisanuki, lat:31.344700 lng:130.945297 [Japan] Population:14114
+testCity Name:Itakura, lat:36.226200 lng:139.602203 [Japan] Population:14039
+testCity Name:Hokuei, lat:35.490002 lng:133.758606 [Japan] Population:14010
+testCity Name:Fujikawa, lat:35.561100 lng:138.461395 [Japan] Population:14004
+testCity Name:Sakaki, lat:36.461899 lng:138.180298 [Japan] Population:13967
+testCity Name:Furukawamen, lat:33.238300 lng:129.650604 [Japan] Population:13942
+testCity Name:Nachikatsuura, lat:33.626099 lng:135.940796 [Japan] Population:13930
+testCity Name:Wakasa, lat:35.548901 lng:135.908295 [Japan] Population:13867
+testCity Name:Oki, lat:33.210602 lng:130.439697 [Japan] Population:13847
+testCity Name:Fujimi, lat:35.914700 lng:138.240799 [Japan] Population:13844
+testCity Name:Kamigori, lat:34.873600 lng:134.356094 [Japan] Population:13835
+testCity Name:Seiro, lat:37.966702 lng:139.266693 [Japan] Population:13823
+testCity Name:Tako, lat:35.735600 lng:140.467804 [Japan] Population:13804
+testCity Name:Higashimiyoshi, lat:34.036701 lng:133.936905 [Japan] Population:13776
+testCity Name:Tarumizu, lat:31.492800 lng:130.701096 [Japan] Population:13688
+testCity Name:Chiran, lat:31.378300 lng:130.441605 [Japan] Population:13667
+testCity Name:Chosei, lat:35.412201 lng:140.354202 [Japan] Population:13656
+testCity Name:Shodoshima, lat:34.481899 lng:134.233597 [Japan] Population:13646
+testCity Name:Yamanobe, lat:38.289200 lng:140.262497 [Japan] Population:13610
+testCity Name:Okinoshima, lat:36.200001 lng:133.316696 [Japan] Population:13595
+testCity Name:Ashiya, lat:33.893902 lng:130.663895 [Japan] Population:13559
+testCity Name:Ugo, lat:39.199402 lng:140.413101 [Japan] Population:13547
+testCity Name:Inawashiro, lat:37.557800 lng:140.104706 [Japan] Population:13403
+testCity Name:Wake, lat:34.802799 lng:134.157501 [Japan] Population:13373
+testCity Name:Kawatana, lat:33.072800 lng:129.861404 [Japan] Population:13370
+testCity Name:Hatoyama, lat:35.981701 lng:139.334198 [Japan] Population:13365
+testCity Name:Kadena, lat:26.361700 lng:127.755302 [Japan] Population:13301
+testCity Name:Tanagura, lat:37.029701 lng:140.379700 [Japan] Population:13264
+testCity Name:Yakage, lat:34.627800 lng:133.587204 [Japan] Population:13218
+testCity Name:Shin'onsen, lat:35.623299 lng:134.449203 [Japan] Population:13213
+testCity Name:Yamato, lat:32.685001 lng:130.990005 [Japan] Population:13210
+testCity Name:Hashikami, lat:40.452499 lng:141.621094 [Japan] Population:13176
+testCity Name:Matsushima, lat:38.373600 lng:141.061005 [Japan] Population:13151
+testCity Name:Taishi, lat:34.518700 lng:135.647598 [Japan] Population:13092
+testCity Name:Itano, lat:34.144199 lng:134.462494 [Japan] Population:13087
+testCity Name:Tonosho, lat:35.837200 lng:140.668900 [Japan] Population:13085
+testCity Name:Kamikawa, lat:36.213902 lng:139.101898 [Japan] Population:13077
+testCity Name:Motobu, lat:26.658100 lng:127.898102 [Japan] Population:13073
+testCity Name:Tonosho, lat:34.486099 lng:134.185806 [Japan] Population:12915
+testCity Name:Yuza, lat:39.015800 lng:139.929199 [Japan] Population:12895
+testCity Name:Misaki, lat:34.997799 lng:133.958298 [Japan] Population:12889
+testCity Name:Keisen, lat:33.578899 lng:130.678101 [Japan] Population:12876
+testCity Name:Ashibetsu, lat:43.518299 lng:142.189407 [Japan] Population:12775
+testCity Name:Suzu, lat:37.436401 lng:137.260300 [Japan] Population:12746
+testCity Name:Kyotamba, lat:35.164398 lng:135.423294 [Japan] Population:12714
+testCity Name:Itayanagi, lat:40.696098 lng:140.457504 [Japan] Population:12681
+testCity Name:Shirataka, lat:38.183102 lng:140.098602 [Japan] Population:12663
+testCity Name:Takamori, lat:35.551399 lng:137.878601 [Japan] Population:12650
+testCity Name:Saka, lat:34.341400 lng:132.513901 [Japan] Population:12611
+testCity Name:Hayashima, lat:34.600601 lng:133.828293 [Japan] Population:12584
+testCity Name:Kanra, lat:36.243099 lng:138.921906 [Japan] Population:12567
+testCity Name:Kawamata, lat:37.665001 lng:140.598297 [Japan] Population:12537
+testCity Name:Matsukawa, lat:35.597198 lng:137.909698 [Japan] Population:12435
+testCity Name:Higashiagatsuma, lat:36.571499 lng:138.820404 [Japan] Population:12356
+testCity Name:Nobeji, lat:40.864399 lng:141.128601 [Japan] Population:12352
+testCity Name:Kasaishi, lat:37.252800 lng:140.343597 [Japan] Population:12282
+testCity Name:Marumori, lat:37.911400 lng:140.765594 [Japan] Population:12251
+testCity Name:Tsuruta, lat:40.758900 lng:140.428604 [Japan] Population:12211
+testCity Name:Sakawa, lat:33.500801 lng:133.286697 [Japan] Population:12170
+testCity Name:Osako, lat:31.429199 lng:131.005798 [Japan] Population:12092
+testCity Name:Iwate, lat:39.972500 lng:141.212494 [Japan] Population:12078
+testCity Name:Hodatsushimizu, lat:36.862801 lng:136.797806 [Japan] Population:12061
+testCity Name:Urakawa, lat:42.168598 lng:142.768295 [Japan] Population:11998
+testCity Name:Iwanai, lat:42.978901 lng:140.509201 [Japan] Population:11982
+testCity Name:Tosashimizu, lat:32.781399 lng:132.955002 [Japan] Population:11925
+testCity Name:Kagamino, lat:35.091900 lng:133.933105 [Japan] Population:11882
+testCity Name:Hirao, lat:33.938099 lng:132.073303 [Japan] Population:11831
+testCity Name:Yakushima, lat:30.371099 lng:130.664993 [Japan] Population:11829
+testCity Name:Ryuo, lat:35.060799 lng:136.124405 [Japan] Population:11821
+testCity Name:Yamamoto, lat:37.962502 lng:140.877808 [Japan] Population:11736
+testCity Name:Hidaka, lat:42.480301 lng:142.074203 [Japan] Population:11648
+testCity Name:Mitai, lat:32.711700 lng:131.307800 [Japan] Population:11642
+testCity Name:Motegi, lat:36.532200 lng:140.187500 [Japan] Population:11631
+testCity Name:Ichinomiya, lat:35.372799 lng:140.368896 [Japan] Population:11622
+testCity Name:Minabe, lat:33.772499 lng:135.321701 [Japan] Population:11594
+testCity Name:Okuizumo, lat:35.197498 lng:133.002502 [Japan] Population:11570
+testCity Name:Muroto-misakicho, lat:33.290001 lng:134.151901 [Japan] Population:11543
+testCity Name:Kuriyama, lat:43.056400 lng:141.784195 [Japan] Population:11474
+testCity Name:Koori, lat:37.849400 lng:140.516403 [Japan] Population:11425
+testCity Name:Higashiizu, lat:34.772800 lng:139.041397 [Japan] Population:11389
+testCity Name:Kamiita, lat:34.121399 lng:134.404999 [Japan] Population:11370
+testCity Name:Zao, lat:38.098099 lng:140.658905 [Japan] Population:11360
+testCity Name:Honmachi, lat:43.911400 lng:144.670807 [Japan] Population:11302
+testCity Name:Ichinohe, lat:40.213100 lng:141.295303 [Japan] Population:11296
+testCity Name:Kin, lat:26.456100 lng:127.926102 [Japan] Population:11252
+testCity Name:Ichikai, lat:36.543301 lng:140.102203 [Japan] Population:11205
+testCity Name:Tagami, lat:37.700001 lng:139.050003 [Japan] Population:11200
+testCity Name:Yamanouchi, lat:36.744701 lng:138.412506 [Japan] Population:11106
+testCity Name:Asahi, lat:35.034199 lng:136.664398 [Japan] Population:11070
+testCity Name:Yuasa, lat:34.029400 lng:135.190308 [Japan] Population:11038
+testCity Name:Hikawadai, lat:32.582500 lng:130.673599 [Japan] Population:11038
+testCity Name:Ichikawa, lat:34.989399 lng:134.763107 [Japan] Population:11023
+testCity Name:Satosho, lat:34.513599 lng:133.556900 [Japan] Population:10969
+testCity Name:Shoo, lat:35.041901 lng:134.116104 [Japan] Population:10933
+testCity Name:Minamiise, lat:34.351898 lng:136.703903 [Japan] Population:10926
+testCity Name:Hakone, lat:35.189400 lng:139.026398 [Japan] Population:10925
+testCity Name:Ogose, lat:35.964401 lng:139.294205 [Japan] Population:10905
+testCity Name:Minamisanriku, lat:38.677799 lng:141.446396 [Japan] Population:10896
+testCity Name:Onna, lat:26.497499 lng:127.853600 [Japan] Population:10852
+testCity Name:Asahi, lat:36.950001 lng:137.566696 [Japan] Population:10852
+testCity Name:Chiyoda, lat:36.217800 lng:139.442505 [Japan] Population:10831
+testCity Name:Miyato, lat:36.177200 lng:139.181396 [Japan] Population:10783
+testCity Name:Ogano, lat:36.017200 lng:139.008606 [Japan] Population:10751
+testCity Name:Otsuchi, lat:39.359699 lng:141.906403 [Japan] Population:10719
+testCity Name:Meiwa, lat:36.211399 lng:139.534195 [Japan] Population:10714
+testCity Name:Matsuda-soryo, lat:35.348301 lng:139.139404 [Japan] Population:10682
+testCity Name:Iwai, lat:35.575802 lng:134.331894 [Japan] Population:10675
+testCity Name:Nakayama, lat:38.333302 lng:140.283096 [Japan] Population:10617
+testCity Name:Nakagawa, lat:33.951099 lng:134.662201 [Japan] Population:10576
+testCity Name:Kamikawa, lat:35.064201 lng:134.739395 [Japan] Population:10557
+testCity Name:Naganuma, lat:43.010300 lng:141.695297 [Japan] Population:10515
+testCity Name:Obuse, lat:36.697800 lng:138.312195 [Japan] Population:10510
+testCity Name:Murata, lat:38.118599 lng:140.722504 [Japan] Population:10506
+testCity Name:Kamifurano, lat:43.455601 lng:142.467194 [Japan] Population:10500
+testCity Name:Kibichuo, lat:34.862499 lng:133.693893 [Japan] Population:10495
+testCity Name:Hoki, lat:35.385300 lng:133.407501 [Japan] Population:10491
+testCity Name:Rokunohe, lat:40.609699 lng:141.324707 [Japan] Population:10473
+testCity Name:Tokigawa, lat:36.008598 lng:139.296906 [Japan] Population:10470
+testCity Name:Minobu, lat:35.467499 lng:138.442505 [Japan] Population:10440
+testCity Name:Kiso, lat:35.842499 lng:137.691696 [Japan] Population:10429
+testCity Name:Kiho, lat:33.733898 lng:136.009705 [Japan] Population:10404
+testCity Name:Shirako, lat:35.454399 lng:140.374405 [Japan] Population:10280
+testCity Name:Nanbu, lat:35.340302 lng:133.326706 [Japan] Population:10275
+testCity Name:Minamiaso, lat:32.845100 lng:131.017807 [Japan] Population:10212
+testCity Name:Tokunoshima, lat:27.726700 lng:129.018600 [Japan] Population:10194
+testCity Name:Shioya, lat:36.777500 lng:139.850601 [Japan] Population:10152
+testCity Name:Higashikagura, lat:43.696400 lng:142.451706 [Japan] Population:10152
+testCity Name:Iizuna, lat:36.755001 lng:138.235596 [Japan] Population:10134
+testCity Name:Nishi, lat:32.201099 lng:130.841095 [Japan] Population:10121
+testCity Name:Rokkasho, lat:40.967499 lng:141.374405 [Japan] Population:10099
+testCity Name:Onan, lat:34.893902 lng:132.437805 [Japan] Population:10086
+testCity Name:Kuroshio, lat:33.025002 lng:133.010803 [Japan] Population:10073
+testCity Name:Yaotsu, lat:35.476101 lng:137.141693 [Japan] Population:10070
+testCity Name:Takahama, lat:35.490299 lng:135.551102 [Japan] Population:10047
+testCity Name:Sakuho, lat:36.161098 lng:138.483307 [Japan] Population:10042
+testCity Name:Tsuno, lat:32.256699 lng:131.559692 [Japan] Population:9972
+testCity Name:Hiranai, lat:40.926102 lng:140.956100 [Japan] Population:9964
+testCity Name:Iwashita, lat:32.651402 lng:130.811707 [Japan] Population:9963
+testCity Name:Kawara, lat:33.668098 lng:130.847198 [Japan] Population:9955
+testCity Name:Kami-kawabe, lat:35.486698 lng:137.070602 [Japan] Population:9784
+testCity Name:Biei, lat:43.588299 lng:142.466904 [Japan] Population:9775
+testCity Name:Akabira, lat:43.558102 lng:142.044205 [Japan] Population:9644
+testCity Name:Kushijima, lat:32.740002 lng:130.757202 [Japan] Population:9624
+testCity Name:Yamakita, lat:35.360600 lng:139.083893 [Japan] Population:9530
+testCity Name:Minano, lat:36.070801 lng:139.098907 [Japan] Population:9338
+testCity Name:Shimizu, lat:43.011101 lng:142.884705 [Japan] Population:9305
+testCity Name:Ikeda, lat:36.421398 lng:137.874695 [Japan] Population:9292
+testCity Name:Nakoushi, lat:26.682501 lng:127.972801 [Japan] Population:9275
+testCity Name:Nakao, lat:35.330799 lng:139.218903 [Japan] Population:9272
+testCity Name:Fujisawacho-niinuma, lat:38.858501 lng:141.349304 [Japan] Population:9112
+testCity Name:Nagaoki, lat:32.978100 lng:130.605804 [Japan] Population:9092
+testCity Name:Iijima, lat:35.676399 lng:137.919403 [Japan] Population:9038
+testCity Name:Hirayama, lat:33.646702 lng:130.500000 [Japan] Population:8986
+testCity Name:Sekimachi, lat:33.061699 lng:130.541397 [Japan] Population:8821
+testCity Name:Taragi, lat:32.264198 lng:130.935806 [Japan] Population:8800
+testCity Name:Soeda, lat:33.571701 lng:130.854202 [Japan] Population:8786
+testCity Name:Otaki, lat:35.285000 lng:140.245605 [Japan] Population:8762
+testCity Name:Hakubacho, lat:36.698200 lng:137.861893 [Japan] Population:8621
+testCity Name:Miyada, lat:35.768902 lng:137.944199 [Japan] Population:8616
+testCity Name:Iwaizumi, lat:39.843102 lng:141.796707 [Japan] Population:8549
+testCity Name:Takaharu, lat:31.928301 lng:131.007797 [Japan] Population:8511
+testCity Name:Owani, lat:40.518299 lng:140.567795 [Japan] Population:8442
+testCity Name:Kawanishicho, lat:34.584400 lng:135.774200 [Japan] Population:8303
+testCity Name:Ikata-cho, lat:33.488300 lng:132.354202 [Japan] Population:8253
+testCity Name:Karumai, lat:40.326698 lng:141.460602 [Japan] Population:8224
+testCity Name:Hanawa, lat:36.957199 lng:140.409698 [Japan] Population:8209
+testCity Name:Mikasa, lat:43.245800 lng:141.875595 [Japan] Population:8153
+testCity Name:Yuzawa, lat:36.933998 lng:138.817398 [Japan] Population:7919
+testCity Name:Tara, lat:33.019402 lng:130.179199 [Japan] Population:7903
+testCity Name:Yahiko, lat:37.683300 lng:138.850006 [Japan] Population:7655
+testCity Name:Abira, lat:42.762798 lng:141.818100 [Japan] Population:7569
+testCity Name:Setana, lat:42.416901 lng:139.883301 [Japan] Population:7564
+testCity Name:Shiranuka, lat:42.956100 lng:144.071701 [Japan] Population:7539
+testCity Name:Nakata, lat:30.533100 lng:130.958603 [Japan] Population:7514
+testCity Name:Inami, lat:33.818298 lng:135.218094 [Japan] Population:7496
+testCity Name:Ide, lat:34.798599 lng:135.803299 [Japan] Population:7453
+testCity Name:Yubari, lat:43.056900 lng:141.973907 [Japan] Population:7430
+testCity Name:Shibecha, lat:43.303299 lng:144.600800 [Japan] Population:7422
+testCity Name:Chonan, lat:35.386700 lng:140.237198 [Japan] Population:7368
+testCity Name:Inakadate, lat:40.631699 lng:140.550003 [Japan] Population:7335
+testCity Name:Esashi, lat:41.869400 lng:140.127502 [Japan] Population:7310
+testCity Name:Naka, lat:33.857399 lng:134.496597 [Japan] Population:7252
+testCity Name:Taga, lat:35.221901 lng:136.292206 [Japan] Population:7237
+testCity Name:Fukaura, lat:40.648102 lng:139.927795 [Japan] Population:7191
+testCity Name:Hiraizumi, lat:38.986698 lng:141.114197 [Japan] Population:7178
+testCity Name:Kotake, lat:33.692501 lng:130.712799 [Japan] Population:7078
+testCity Name:Nambu, lat:35.242500 lng:138.486099 [Japan] Population:7057
+testCity Name:Onishi, lat:36.160599 lng:139.061905 [Japan] Population:7011
+testCity Name:Ogunimachi, lat:38.061401 lng:139.743301 [Japan] Population:6939
+testCity Name:Teshikaga, lat:43.485298 lng:144.459198 [Japan] Population:6937
+testCity Name:Shibayama, lat:35.693100 lng:140.414200 [Japan] Population:6916
+testCity Name:Aya, lat:31.999201 lng:131.253098 [Japan] Population:6867
+testCity Name:Shinmachi, lat:35.191700 lng:140.348602 [Japan] Population:6769
+testCity Name:Fukuyama, lat:41.430000 lng:140.110596 [Japan] Population:6754
+testCity Name:Kamihonbetsu, lat:43.124401 lng:143.610596 [Japan] Population:6735
+testCity Name:Nishiowa, lat:36.021999 lng:139.654297 [Japan] Population:6731
+testCity Name:Manazuru, lat:35.158298 lng:139.137207 [Japan] Population:6724
+testCity Name:Sekigahara, lat:35.365299 lng:136.467194 [Japan] Population:6701
+testCity Name:Kochi, lat:34.757198 lng:138.987503 [Japan] Population:6684
+testCity Name:Ashoro, lat:43.244701 lng:143.554199 [Japan] Population:6684
+testCity Name:Nagaya, lat:35.430801 lng:140.226898 [Japan] Population:6664
+testCity Name:Nagatoro, lat:36.110001 lng:139.110001 [Japan] Population:6643
+testCity Name:Shikama, lat:38.548901 lng:140.850006 [Japan] Population:6580
+testCity Name:Hiroo, lat:42.286098 lng:143.311707 [Japan] Population:6547
+testCity Name:Nishiharadai, lat:32.834702 lng:130.903107 [Japan] Population:6507
+testCity Name:Oishida, lat:38.593899 lng:140.372803 [Japan] Population:6417
+testCity Name:Toma, lat:43.828098 lng:142.508301 [Japan] Population:6371
+testCity Name:Shimonita, lat:36.212502 lng:138.789200 [Japan] Population:6338
+testCity Name:Chizu, lat:35.264999 lng:134.226700 [Japan] Population:6332
+testCity Name:Wadomari, lat:27.392200 lng:128.655304 [Japan] Population:6233
+testCity Name:Higashikyoshin, lat:31.385799 lng:130.973297 [Japan] Population:6188
+testCity Name:Izumizaki, lat:37.156898 lng:140.295303 [Japan] Population:6171
+testCity Name:Omachi, lat:33.213902 lng:130.116104 [Japan] Population:6156
+testCity Name:Yoshinoyama, lat:34.400002 lng:135.850006 [Japan] Population:6101
+testCity Name:Kusatsu, lat:36.620602 lng:138.596100 [Japan] Population:6058
+testCity Name:Shihoro, lat:43.168301 lng:143.241104 [Japan] Population:6027
+testCity Name:Asakawa, lat:37.080799 lng:140.412796 [Japan] Population:6018
+testCity Name:Waki, lat:34.202202 lng:132.220306 [Japan] Population:5984
+testCity Name:Isen, lat:27.673599 lng:128.937500 [Japan] Population:5958
+testCity Name:Matsuzaki, lat:34.753101 lng:138.778900 [Japan] Population:5932
+testCity Name:Ginoza, lat:26.481701 lng:127.975601 [Japan] Population:5900
+testCity Name:Shintoku, lat:43.079700 lng:142.838898 [Japan] Population:5834
+testCity Name:Tatsugo, lat:28.413099 lng:129.589401 [Japan] Population:5753
+testCity Name:Ohira, lat:38.467499 lng:140.880295 [Japan] Population:5739
+testCity Name:Takamori, lat:32.827202 lng:131.121902 [Japan] Population:5724
+testCity Name:China, lat:27.333599 lng:128.573593 [Japan] Population:5686
+testCity Name:Hamanaka-sakuraminami, lat:43.077202 lng:145.129395 [Japan] Population:5674
+testCity Name:Kozaki, lat:35.901699 lng:140.405304 [Japan] Population:5663
+testCity Name:Onagawa, lat:38.445599 lng:141.444397 [Japan] Population:5662
+testCity Name:Kuzumaki, lat:40.039700 lng:141.436401 [Japan] Population:5467
+testCity Name:Amagi, lat:27.809200 lng:128.897797 [Japan] Population:5465
+testCity Name:Taiki, lat:42.497501 lng:143.278900 [Japan] Population:5449
+testCity Name:Hachirougata, lat:39.949402 lng:140.073303 [Japan] Population:5445
+testCity Name:Takae, lat:42.362499 lng:142.318604 [Japan] Population:5395
+testCity Name:Asuka, lat:34.471100 lng:135.820602 [Japan] Population:5241
+testCity Name:Naie, lat:43.425301 lng:141.882797 [Japan] Population:5235
+testCity Name:Yamanaka, lat:35.410599 lng:138.860794 [Japan] Population:5170
+testCity Name:Shibetsu, lat:43.661400 lng:145.131393 [Japan] Population:5123
+testCity Name:Oshamambe, lat:42.513599 lng:140.380402 [Japan] Population:5112
+testCity Name:Ochi, lat:33.532799 lng:133.251907 [Japan] Population:5111
+testCity Name:Imagane, lat:42.429401 lng:140.008606 [Japan] Population:5052
+testCity Name:Kaneyama, lat:38.883301 lng:140.339401 [Japan] Population:5045
+testCity Name:Naganohara, lat:36.552200 lng:138.637497 [Japan] Population:5026
+探す時間:  3.517 (ms)
+===========================
+数字を入力して、プログラムを起動する.
+[1] ハッシュテーブルの分布を示す
+[2] 都市の情報を示す
+[3] 国に存在する都市を示す
+[4] 国に存在する都市を指定の形式で示す
+EOFを入力するプログラムを閉じる
+===========================
+3
+探したいの国は？
+hello
+No cities found for country: hello
+探す時間:  0.035 (ms)
+===========================
+数字を入力して、プログラムを起動する.
+[1] ハッシュテーブルの分布を示す
+[2] 都市の情報を示す
+[3] 国に存在する都市を示す
+[4] 国に存在する都市を指定の形式で示す
+EOFを入力するプログラムを閉じる
+===========================
+4
+探したい国の名前は？
+Japan
+並びたい順番を選択してください：
+[0]人口
+[1]緯度
+[2]経度
+0
+並び順番を選択してください：
+[0]昇順
+[1]降順
+0
+開始したいの都市ファイルを入力くださ（指定しないのときを0を入力して、すべての都市が表示する）：
+Yokohama
+City Name:Yokohama, lat:35.433300 lng:139.633301 [Japan] Population:3757630
+City Name:Nagoya, lat:35.116699 lng:136.933304 [Japan] Population:9522000
+City Name:Osaka, lat:34.751999 lng:135.458206 [Japan] Population:15490000
+City Name:Tokyo, lat:35.683899 lng:139.774399 [Japan] Population:39105000
+探す時間:  1.032 (ms)
+===========================
+数字を入力して、プログラムを起動する.
+[1] ハッシュテーブルの分布を示す
+[2] 都市の情報を示す
+[3] 国に存在する都市を示す
+[4] 国に存在する都市を指定の形式で示す
+EOFを入力するプログラムを閉じる
+===========================
+4
+探したい国の名前は？
+Japan
+並びたい順番を選択してください：
+[0]人口
+[1]緯度
+[2]経度
+2
+並び順番を選択してください：
+[0]昇順
+[1]降順
+1
+開始したいの都市ファイルを入力くださ（指定しないのときを0を入力して、すべての都市が表示する）：
+Naha
+City Name:Naha, lat:26.212200 lng:127.678902 [Japan] Population:316048
+City Name:Miyakojima, lat:24.805599 lng:125.281097 [Japan] Population:52390
+City Name:Ishigaki, lat:24.333300 lng:124.150002 [Japan] Population:48258
+探す時間:  1.231 (ms)
+===========================
+数字を入力して、プログラムを起動する.
+[1] ハッシュテーブルの分布を示す
+[2] 都市の情報を示す
+[3] 国に存在する都市を示す
+[4] 国に存在する都市を指定の形式で示す
+EOFを入力するプログラムを閉じる
+===========================
+4
+探したい国の名前は？
+Japan
+並びたい順番を選択してください：
+[0]人口
+[1]緯度
+[2]経度
+1
+並び順番を選択してください：
+[0]昇順
+[1]降順
+0
+開始したいの都市ファイルを入力くださ（指定しないのときを0を入力して、すべての都市が表示する）：
+Abashiri
+City Name:Abashiri, lat:44.020599 lng:144.273605 [Japan] Population:34640
+City Name:Mukaiengaru, lat:44.061699 lng:143.528107 [Japan] Population:19358
+City Name:Minamishibetsucho, lat:44.178600 lng:142.400604 [Japan] Population:18138
+City Name:Nayoro, lat:44.355801 lng:142.463303 [Japan] Population:27062
+City Name:Mobetsu, lat:44.356400 lng:143.354202 [Japan] Population:21317
+City Name:Wakabadai, lat:45.400002 lng:141.699997 [Japan] Population:33036
+探す時間:  1.089 (ms)
+===========================
+数字を入力して、プログラムを起動する.
+[1] ハッシュテーブルの分布を示す
+[2] 都市の情報を示す
+[3] 国に存在する都市を示す
+[4] 国に存在する都市を指定の形式で示す
+EOFを入力するプログラムを閉じる
+===========================
+4
+探したい国の名前は？
+jjj
+並びたい順番を選択してください：
+[0]人口
+[1]緯度
+[2]経度
+0
+並び順番を選択してください：
+[0]昇順
+[1]降順
+0
+開始したいの都市ファイルを入力くださ（指定しないのときを0を入力して、すべての都市が表示する）：
+Noda
+No cities found for country: jjj
+探す時間:  0.022 (ms)
+===========================
+数字を入力して、プログラムを起動する.
+[1] ハッシュテーブルの分布を示す
+[2] 都市の情報を示す
+[3] 国に存在する都市を示す
+[4] 国に存在する都市を指定の形式で示す
+EOFを入力するプログラムを閉じる
+===========================
+4
+探したい国の名前は？
+Japan
+並びたい順番を選択してください：
+[0]人口
+[1]緯度
+[2]経度
+0
+並び順番を選択してください：
+[0]昇順
+[1]降順
+0
+開始したいの都市ファイルを入力くださ（指定しないのときを0を入力して、すべての都市が表示する）：
+kkkkk
+No such city named:kkkkk
+探す時間:  1.148 (ms)
+===========================
+数字を入力して、プログラムを起動する.
+[1] ハッシュテーブルの分布を示す
+[2] 都市の情報を示す
+[3] 国に存在する都市を示す
+[4] 国に存在する都市を指定の形式で示す
+EOFを入力するプログラムを閉じる
+===========================
+EOFを検出する、プログラムを閉じる
+[?2004h]0;qinghaiovo@desktop: ~/c/Assignment[01;32mqinghaiovo@desktop[00m:[01;34m~/c/Assignment[00m$ exit
+[?2004l
+exit
+
+Script done on 2025-06-08 22:24:29+09:00 [COMMAND_EXIT_CODE="0"]
