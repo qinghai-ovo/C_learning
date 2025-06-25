@@ -358,9 +358,9 @@ void sysMenuJp(){
 }
 
 int main(){
-    struct timespec start, end;
-    long long elapsed_ns;
-    double elapsed_ms;
+    // struct timespec start, end;
+    // long long elapsed_ns;
+    // double elapsed_ms;
     
     char name[1024];
     char country[1024];
@@ -396,22 +396,22 @@ int main(){
                 case 2:
                     printf("探したいの都市は？\n");
                     scanf("%s", buffer);
-                    clock_gettime(CLOCK_MONOTONIC, &start);
+                    // clock_gettime(CLOCK_MONOTONIC, &start);
                     print_city(buffer);
-                    clock_gettime(CLOCK_MONOTONIC, &end);
-                    elapsed_ns = (end.tv_sec - start.tv_sec) * 1000000000LL + (end.tv_nsec - start.tv_nsec);
-                    elapsed_ms = elapsed_ns / 1000000.0;
-                    printf("探す時間:  %.3f (ms)\n", elapsed_ms);
+                    // clock_gettime(CLOCK_MONOTONIC, &end);
+                    // elapsed_ns = (end.tv_sec - start.tv_sec) * 1000000000LL + (end.tv_nsec - start.tv_nsec);
+                    // elapsed_ms = elapsed_ns / 1000000.0;
+                    // printf("探す時間:  %.3f (ms)\n", elapsed_ms);
                     break;
                 case 3:
                     printf("探したいの国は？\n");
                     scanf("%s", buffer);
-                    clock_gettime(CLOCK_MONOTONIC, &start);
+                    // clock_gettime(CLOCK_MONOTONIC, &start);
                     print_cities(buffer);
-                    clock_gettime(CLOCK_MONOTONIC, &end);
-                    elapsed_ns = (end.tv_sec - start.tv_sec) * 1000000000LL + (end.tv_nsec - start.tv_nsec);
-                    elapsed_ms = elapsed_ns / 1000000.0;
-                    printf("探す時間:  %.3f (ms)\n", elapsed_ms);
+                    // clock_gettime(CLOCK_MONOTONIC, &end);
+                    // elapsed_ns = (end.tv_sec - start.tv_sec) * 1000000000LL + (end.tv_nsec - start.tv_nsec);
+                    // elapsed_ms = elapsed_ns / 1000000.0;
+                    // printf("探す時間:  %.3f (ms)\n", elapsed_ms);
                     break;
                 case 4:
                     int dataType,order;
@@ -440,12 +440,12 @@ int main(){
                     }
                     printf("開始したいの都市ファイルを入力くださ（指定しないのときを0を入力して、すべての都市が表示する）：\n");
                     scanf("%s", cityName);
-                    clock_gettime(CLOCK_MONOTONIC, &start);
+                    // clock_gettime(CLOCK_MONOTONIC, &start);
                     print_cities2(buffer, dataType, order,cityName);
-                    clock_gettime(CLOCK_MONOTONIC, &end);
-                    elapsed_ns = (end.tv_sec - start.tv_sec) * 1000000000LL + (end.tv_nsec - start.tv_nsec);
-                    elapsed_ms = elapsed_ns / 1000000.0;
-                    printf("探す時間:  %.3f (ms)\n", elapsed_ms);
+                    // clock_gettime(CLOCK_MONOTONIC, &end);
+                    // elapsed_ns = (end.tv_sec - start.tv_sec) * 1000000000LL + (end.tv_nsec - start.tv_nsec);
+                    // elapsed_ms = elapsed_ns / 1000000.0;
+                    // printf("探す時間:  %.3f (ms)\n", elapsed_ms);
                     break;
                 default:
                     printf("入力が間違います、再度に入力してください。\n");
